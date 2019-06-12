@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:Validations="clr-namespace:IAudioXamarin.Validations"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="PrintingApp.Views.LoginPage"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout>
+        <Grid Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height=".3*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height=".3*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height=".3*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height=".4*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1.2*"/>
+
+            </Grid.RowDefinitions>
+            <Image Source="iconn.png" HorizontalOptions="Center" Grid.Row="1" HeightRequest="120" WidthRequest="150"/>
+            <Label Text="ADMIN LOGIN" FontAttributes="Bold" TextColor="#0762AD" HorizontalOptions="Center" Grid.Row="2" FontSize="Large"/>
+            <Entry x:Name="emailid" Grid.Row="3" TranslationX="12" TextColor="Black" Text="{Binding Username}" Placeholder="Enter Email" TextChanged="Emailid_TextChanged"/>
+            <!--<Validations:MPEntry x:Name="emailid" Placeholder="Enter Email"  Text="{Binding Username}" ShowErrorMessage="True" Grid.Row="2" TranslationX="12" TextColor="Black" ></Validations:MPEntry>-->
+            <Image Source="login_mail.png" Grid.Row="3" HorizontalOptions="Start" HeightRequest="25" WidthRequest="25"  TranslationX="-13"/>
+            <!--<Image Source="line2.png" Grid.Row="5" TranslationY="8" HorizontalOptions="Center"/>-->
+
+            <Label BindingContext="{x:Reference emailid}"  Style="{DynamicResource LabelSty}"
+          IsVisible="{Binding HasError}" 
+          Text="{Binding ErrorMessage}" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" VerticalOptions="StartAndExpand"
+                           FontSize="12" TextColor="#C04D5D"  Grid.Row="3"/>
+            <Entry x:Name="pass" Placeholder="Enter Password" Text="{Binding Password}" IsPassword="True" TextColor="Black" Grid.Row="5" TranslationX="12" TextChanged="Pass_TextChanged"/>
+            <!--<Validations:MPEntry x:Name="pass" Placeholder="Enter Password" Text="{Binding Password}" ShowErrorMessage="True" Grid.Row="4" IsPassword="True" TranslationX="12" TextColor="Black"></Validations:MPEntry>-->
+            <Image Source="login_password.png" Grid.Row="5" HorizontalOptions="Start" HeightRequest="25" WidthRequest="25" TranslationX="-13"/>
+            <!--<Image Source="line2.png" Grid.Row="7" TranslationY="8" HorizontalOptions="Center"/>-->
+
+            <Label BindingContext="{x:Reference pass}" Style="{DynamicResource LabelSty}"
+          IsVisible="{Binding HasError}" 
+          Text="{Binding ErrorMessage}" HorizontalOptions="Start"
+                           FontSize="12" TextColor="#C04D5D" Grid.Row="5" />
+            <!--<Image Source="{Binding img}" Grid.Row="6" HorizontalOptions="Start"  HeightRequest="20" WidthRequest="20" Margin="0,0,0,35">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding tap}"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Text="Remember me" HorizontalOptions="Start" Grid.Row="6" TextColor="Black" TranslationX="18"/>
+            <Label Text="Forgot password?" HorizontalOptions="End" Grid.Row="6" TextColor="Blue">
+
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding Forgot}">
+                    </TapGestureRecognizer>
+                </Label.GestureRecognizers>
+            </Label>-->
+
+            <Button Text=" Login" BorderRadius="20" VerticalOptions="Center" 
+                   Command="{Binding SubmitCommand}"  Grid.Row="8" BackgroundColor="#0762AD" TextColor="White"/>
+            <!--<Button Text="Resister" BorderRadius="20" VerticalOptions="Center" 
+                   Command="{Binding ResisterCommand}"  Grid.Row="9" BackgroundColor="#0762AD" TextColor="White"/>-->
+
+            <!--<Label Text="Signup" Grid.Row="10" FontSize="Medium" TextColor="Blue" HorizontalOptions="End" TranslationX="-10">
+
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding signup}">
+                    </TapGestureRecognizer>
+                </Label.GestureRecognizers>
+            </Label>-->
+            <!--<Image Source="signin.png" Grid.Row="9" HeightRequest="60">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding BClick}">
+                        </TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>-->
+
+            <!--<DatePicker x:Name="ExpDate" VerticalOptions="CenterAndExpand" MinimumDate="1980-01-01" Grid.Row="11"/>
+            <TimePicker x:Name="ExpTime" VerticalOptions="CenterAndExpand" Grid.Row="0"/>
+            <SearchBar Placeholder="Search" Grid.Row="10"/>-->
+        </Grid>
+    </StackLayout>
+</ContentPage>

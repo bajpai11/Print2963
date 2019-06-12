@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controls:ExtendedTabbedPage
+    xmlns:controls="clr-namespace:PrintingApp.Common" 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:behaviors="clr-namespace:PrintingApp"
+    xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+    xmlns:zxcm="clr-namespace:ZXing.Common;assembly=zxing.portable"
+    prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="PrintingApp.Views.DashBoardScreen"
+             BarBackgroundColor="#0762AD"
+             BackgroundColor="Green"
+             BarTextColor="#3C9BDF" 
+             android:TabbedPage.BarItemColor="Gray"
+             android:TabbedPage.BarSelectedItemColor="#3C9BDF"
+             android:TabbedPage.ToolbarPlacement="Bottom" 
+             NavigationPage.HasNavigationBar="False">
+
+  <controls:ExtendedTabbedPage.Children>
+        <ContentPage Title="Registraion" Icon="register.png"  BackgroundColor="White">
+            <StackLayout>
+                
+                    <Grid Margin="20,20,20,10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height=".5*"/>
+                            <RowDefinition Height="7.5*"/>
+                            <RowDefinition  Height=".5*"/>
+                            <RowDefinition Height=".9*"/>
+                           <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+
+                        <StackLayout Orientation="Horizontal" Spacing="50" Grid.Row="0">
+                            <Image Source="back.png" HeightRequest="25" WidthRequest="25" HorizontalOptions="Start">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding BackCommand}"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                        <Label Text="Registration Form" FontSize="20" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+
+                        </StackLayout>
+                        <StackLayout Grid.Row="1" HorizontalOptions="FillAndExpand">
+                            <!--<Grid BackgroundColor="White" HeightRequest="50" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,0" >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="5*"/>
+                                    <ColumnDefinition Width="5*"/>-->
+                            <!--</Grid.ColumnDefinitions>-->
+
+                            <Frame BorderColor="Black" Grid.Column="0" Grid.ColumnSpan="2" Padding="0" CornerRadius="15" HeightRequest="140" HorizontalOptions="FillAndExpand">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding LabelSelectedDomain}"  TextColor="#696969" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" FontSize="14" Grid.Column="0" Margin="6,0,0,0" />
+                                    <Image Source="dropdown" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Margin="0,2,5,0" Grid.Column="1" HeightRequest="22" WidthRequest="22"/>
+                                </StackLayout>
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding CategorySelectioncommand}" NumberOfTapsRequired="1"/>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                            <Frame BorderColor="Black" Grid.Column="0" Grid.ColumnSpan="2" CornerRadius="15" Padding="0" HeightRequest="140" HorizontalOptions="FillAndExpand">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding LabelSelectedCountry}"  TextColor="#696969" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" FontSize="14" Grid.Column="0" Margin="6,0,0,0" />
+                                    <Image Source="dropdown" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Margin="0,2,5,0" Grid.Column="1" HeightRequest="22" WidthRequest="22"/>
+                                </StackLayout>
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding CountrySelectioncommand}" NumberOfTapsRequired="1"/>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                            <StackLayout Orientation="Horizontal" Margin="10,0,10,0" Spacing="0">
+                                <Image Source="nameicon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="40"  TranslationX="-13"/>
+                                <Entry x:Name="txtName" Placeholder="Enter Name" Text="{Binding Username}" HorizontalOptions="FillAndExpand"></Entry>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" Margin="10,0,10,0">
+                                <Image Source="login_mail.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"  TranslationX="-13"/>
+                                <Entry  Placeholder="Enter Company Name" x:Name="txtCompany" Text="{Binding textCompany}" HorizontalOptions="FillAndExpand"></Entry>
+                            </StackLayout>
+                            <Frame BorderColor="Black" Grid.Column="0" Grid.ColumnSpan="2" Padding="0" HeightRequest="140" CornerRadius="15" HorizontalOptions="FillAndExpand">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding LabelSelectedGender}"  TextColor="#696969" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" FontSize="14" Grid.Column="0" Margin="6,0,0,0" />
+                                    <Image Source="dropdown" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Margin="0,2,5,0" Grid.Column="1" HeightRequest="22" WidthRequest="22"/>
+                                </StackLayout>
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding GenderSelectioncommand}" NumberOfTapsRequired="1"/>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                            <Frame BorderColor="Black" Grid.Column="0" Grid.ColumnSpan="2" Padding="0" CornerRadius="15" HeightRequest="140" HorizontalOptions="FillAndExpand">
+                                <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding LabelSelectIDType}" TextColor="#696969" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" FontSize="14" Grid.Column="0" Margin="6,0,0,0" />
+                                    <Image Source="dropdown" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Margin="0,2,5,0" Grid.Column="1" HeightRequest="22" WidthRequest="22"/>
+                                </StackLayout>
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding IDTypeSelectioncommand}" NumberOfTapsRequired="1"/>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                            <StackLayout Orientation="Horizontal" Margin="10,0,10,0" Spacing="0">
+                                <Image Source="nameicon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="40"  TranslationX="-13"/>
+                                <Entry x:Name="txtIDtype" Placeholder="Id NO." HorizontalOptions="FillAndExpand"></Entry>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" Margin="10,0,10,0" Spacing="0">
+                                <Image Source="nameicon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="40"  TranslationX="-13"/>
+                                <Entry Placeholder="Enter Mobile Number" x:Name="txtMobile" Text="{Binding MobileNum}" HorizontalOptions="FillAndExpand"></Entry>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" Margin="10,0,10,0">
+                                <Image Source="login_mail.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"  TranslationX="-13"/>
+                                <Entry x:Name="txtEmail" Placeholder="Enter Email" Text="{Binding EntryEmail}" HorizontalOptions="FillAndExpand"></Entry>
+                            </StackLayout>
+
+                        </StackLayout>
+                        <Frame IsVisible="{Binding Pickervisible}" HasShadow="False" Grid.Row="1"  BackgroundColor="#707070" Margin="0,35,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="130" Padding="0">
+                            <ListView  x:Name="BrowseDomainList" BackgroundColor="#707070" ItemsSource="{Binding DomainListItem}" Margin="0,0,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand"  SeparatorVisibility="None" RowHeight="32" SelectedItem="{Binding SelectedDomain}">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <ViewCell>
+                                            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="{Binding BgColor}">
+                                                <Label Text="{Binding DomainName}" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center" Margin="10,0,0,0" TextColor="White"/>
+                                                <StackLayout.GestureRecognizers>
+                                                    <TapGestureRecognizer Command="{Binding DomainSelectedCommand}" NumberOfTapsRequired="1">
+
+                                                    </TapGestureRecognizer>
+                                                </StackLayout.GestureRecognizers>
+                                            </StackLayout>
+                                        </ViewCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </Frame>
+                        <Frame IsVisible="{Binding Countryvisible}" HasShadow="False" Grid.Row="1"  BackgroundColor="#707070" Margin="0,60,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="130" Padding="0">
+                            <ListView  x:Name="BrowseCountryList" BackgroundColor="#707070" ItemsSource="{Binding CountryListItem}" Margin="0,0,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand"  SeparatorVisibility="None" RowHeight="32" SelectedItem="{Binding SelectedCountry}">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <ViewCell>
+                                            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="{Binding BgColor}">
+                                                <Label Text="{Binding CountryName}" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center" Margin="10,0,0,0" TextColor="White"/>
+                                                <StackLayout.GestureRecognizers>
+                                                    <TapGestureRecognizer Command="{Binding CountrySelectedCommand}" NumberOfTapsRequired="1">
+
+                                                    </TapGestureRecognizer>
+                                                </StackLayout.GestureRecognizers>
+                                            </StackLayout>
+                                        </ViewCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </Frame>
+                        <Frame IsVisible="{Binding Gendervisible}" HasShadow="False" Grid.Row="1"  BackgroundColor="#707070" Margin="0,200,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="70" Padding="0">
+                            <ListView  x:Name="BrowseGenderList" BackgroundColor="#707070" ItemsSource="{Binding GenderListItem}" Margin="0,0,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand"  SeparatorVisibility="None" RowHeight="32" SelectedItem="{Binding SelectedGender}">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <ViewCell>
+                                            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="{Binding BgColor}">
+                                                <Label Text="{Binding GenderName}" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center" Margin="10,0,0,0" TextColor="White"/>
+                                                <StackLayout.GestureRecognizers>
+                                                    <TapGestureRecognizer Command="{Binding GenderSelectedCommand}" NumberOfTapsRequired="1">
+                                                    </TapGestureRecognizer>
+                                                </StackLayout.GestureRecognizers>
+                                            </StackLayout>
+                                        </ViewCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </Frame>
+                    <Frame IsVisible="{Binding IDTypevisible}" HasShadow="False" Grid.Row="1"  BackgroundColor="#707070" Margin="0,235,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="80" Padding="0">
+                        <ListView  x:Name="BrowseIDList" BackgroundColor="#707070" ItemsSource="{Binding IDListItem}" Margin="0,0,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand"  SeparatorVisibility="None" RowHeight="32" SelectedItem="{Binding SelectedID}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="{Binding BgColor}">
+                                            <Label Text="{Binding IDtypeName}" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center" Margin="10,0,0,0" TextColor="White"/>
+                                            <StackLayout.GestureRecognizers>
+                                                <TapGestureRecognizer Command="{Binding IDtypeSelectedCommand}" NumberOfTapsRequired="1">
+                                                </TapGestureRecognizer>
+                                            </StackLayout.GestureRecognizers>
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Frame>
+                    <StackLayout Orientation="Horizontal" Grid.Row="3" VerticalOptions="End">
+                        <Label Text="Take Pic" Grid.Row="2" TextColor="Blue" FontSize="Small">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding UploadCommand}"/>
+                            </Label.GestureRecognizers>
+
+                        </Label>
+
+                    <Image x:Name="image" HeightRequest="120" WidthRequest="150"/>
+                    </StackLayout>
+                    <Button x:Name="btnAdd" Grid.Row="4" Text="SAVE" Command="{Binding SaveCommand}" HeightRequest="50" BackgroundColor="#0762AD" WidthRequest="200" TextColor="White" CornerRadius="20" HorizontalOptions="FillAndExpand" VerticalOptions="End" Margin="0,10,0,0"/>
+
+                </Grid>
+              
+            </StackLayout>
+        </ContentPage>
+        <ContentPage Title="Ticket Booking" Icon="ticket.png" BackgroundColor="White">
+            <StackLayout>
+                <Grid Margin="20,20,20,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height=".5*"/>
+                        <RowDefinition Height="7.4*"/>
+                        <RowDefinition  Height=".7*"/>
+                        <RowDefinition Height=".6*"/>
+                        <RowDefinition Height="1.2*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackLayout Orientation="Horizontal" Spacing="50" Grid.Row="0">
+                        <Image Source="back.png" HeightRequest="25" WidthRequest="25" HorizontalOptions="Start">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding BackCommand}"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Label Text="Ticket Booking" FontSize="20" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" HorizontalOptions="FillAndExpand">
+                        <!--<Grid BackgroundColor="White" HeightRequest="50" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,0" >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="5*"/>
+                                    <ColumnDefinition Width="5*"/>-->
+                        <!--</Grid.ColumnDefinitions>-->
+
+                        <Frame BorderColor="Black" Grid.Column="0" Grid.ColumnSpan="2" Padding="0" CornerRadius="15" HeightRequest="80" HorizontalOptions="FillAndExpand">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding LabelSelectedcategory}"  TextColor="#696969" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" FontSize="14" Grid.Column="0" Margin="6,0,0,0" />
+                                <Image Source="dropdown" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Margin="0,2,5,0" Grid.Column="1" HeightRequest="22" WidthRequest="22"/>
+                            </StackLayout>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding CategoryBookSelectioncommand}" NumberOfTapsRequired="1"/>
+                            </Frame.GestureRecognizers>
+                        </Frame>
+
+
+
+                        <Frame BorderColor="Black" Grid.Column="0" Grid.ColumnSpan="2" Padding="0" CornerRadius="15" HeightRequest="80" HorizontalOptions="FillAndExpand">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding LabelSelectedbookCountry}"  TextColor="#696969" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" FontSize="14" Grid.Column="0" Margin="6,0,0,0" />
+                                <Image Source="dropdown" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Margin="0,2,5,0" Grid.Column="1" HeightRequest="22" WidthRequest="22"/>
+                            </StackLayout>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding BookCountrySelectioncommand}" NumberOfTapsRequired="1"/>
+                            </Frame.GestureRecognizers>
+                        </Frame>
+                    
+
+
+                        <StackLayout Orientation="Horizontal" Margin="10,0,10,0">
+                            <Image Source="login_mail.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"  TranslationX="-13"/>
+                            <Entry x:Name="txtEmaill" Placeholder="Enter Amount" HorizontalOptions="FillAndExpand"></Entry>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" Margin="10,0,10,0" Spacing="0">
+                            <Image Source="nameicon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="40"  TranslationX="-13"/>
+
+                            <Entry x:Name="txtNamee" Placeholder="Enter Name" HorizontalOptions="FillAndExpand"></Entry>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="10,0,10,0" Spacing="0">
+                            <Image Source="nameicon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="40"  TranslationX="-13"/>
+                            <Entry Placeholder="Enter Mobile Number" x:Name="txtMobilee" HorizontalOptions="FillAndExpand"></Entry>
+                        </StackLayout>
+                        
+                    
+                        <StackLayout Orientation="Horizontal" Margin="10,0,10,0">
+                            <Image Source="login_mail.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35"  TranslationX="-13"/>
+                            <Entry  Placeholder="Enter Company Name" x:Name="txtCompanyy" HorizontalOptions="FillAndExpand"></Entry>
+                        </StackLayout>
+
+
+                        <Frame BorderColor="Black" Grid.Column="0" Grid.ColumnSpan="2" CornerRadius="15" Padding="0" HeightRequest="80" HorizontalOptions="FillAndExpand">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding LabelSelectedbookID}"  TextColor="#696969" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" FontSize="14" Grid.Column="0" Margin="6,0,0,0" />
+                                <Image Source="dropdown" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Margin="0,2,5,0" Grid.Column="1" HeightRequest="22" WidthRequest="22"/>
+                            </StackLayout>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding BookIDSelectioncommand}" NumberOfTapsRequired="1"/>
+                            </Frame.GestureRecognizers>
+                        </Frame>
+                       
+                        <StackLayout Orientation="Horizontal" Margin="10,0,10,0" Spacing="0">
+                            <Image Source="nameicon.png" HorizontalOptions="Start" HeightRequest="35" WidthRequest="40"  TranslationX="-13"/>
+                            <Entry x:Name="txtIDtypee" Placeholder="Id NO." HorizontalOptions="FillAndExpand"></Entry>
+                        </StackLayout>
+                      
+                 
+                      
+                    </StackLayout>
+                    <!--<StackLayout Spacing="2" Padding="10" Grid.Row="1" VerticalOptions="StartAndExpand">
+                <Button x:Name="takePhoto" Text="Take Photo"/>
+                <Button x:Name="pickPhoto" Text="Pick Photo"/>
+                -->
+                    <!--<Button x:Name="takeVideo" Text="Take Video"/>
+				<Button x:Name="pickVideo" Text="Pick Video"/>-->
+                    <!--
+
+                <Image x:Name="image" HeightRequest="150" WidthRequest="150"/>
+
+
+            </StackLayout>-->
+                    <Grid VerticalOptions="Start" Grid.Row="4" ColumnSpacing="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="5*"/>
+                            <ColumnDefinition Width="5*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnAddd" Grid.Column="0" Text="SAVE" HeightRequest="50" Command="{Binding SaveCommand}" Grid.ColumnSpan="2" BackgroundColor="#0762AD" WidthRequest="200" TextColor="White" CornerRadius="20" HorizontalOptions="FillAndExpand" VerticalOptions="End" Margin="0,10,0,0"/>
+                        <!--<Button x:Name="btnScan" Grid.Column="1" Text="SCAN" HeightRequest="40" BackgroundColor="Aqua" CornerRadius="5" Clicked="btnScan_Clicked" HorizontalOptions="FillAndExpand" VerticalOptions="End"/>-->
+                    </Grid> 
+                    <Frame IsVisible="{Binding Categoryvisible}" HasShadow="False" Grid.Row="1"  BackgroundColor="#707070" Margin="0,40,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="70" Padding="0">
+                        <ListView  x:Name="BrowseDomainListt" BackgroundColor="#707070" ItemsSource="{Binding CategoryListItem}" Margin="0,0,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand"  SeparatorVisibility="None" RowHeight="32" SelectedItem="{Binding SelectedCategory}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="{Binding BgColor}">
+                                            <Label Text="{Binding CategoryName}" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center" Margin="10,0,0,0" TextColor="White"/>
+                                            <StackLayout.GestureRecognizers>
+                                                <TapGestureRecognizer Command="{Binding CategorySelectedCommand}" NumberOfTapsRequired="1">
+
+                                                </TapGestureRecognizer>
+                                            </StackLayout.GestureRecognizers>
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Frame>
+                    <Frame IsVisible="{Binding Countrybookvisible}" HasShadow="False" Grid.Row="1"  BackgroundColor="#707070" Margin="0,85,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="130" Padding="0">
+                        <ListView  x:Name="BrowseDomainListtt" BackgroundColor="#707070" ItemsSource="{Binding CountryListItem}" Margin="0,0,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand"  SeparatorVisibility="None" RowHeight="32" SelectedItem="{Binding SelectedbookCategory}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="{Binding BgColor}">
+                                            <Label Text="{Binding CountryName}" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center" Margin="10,0,0,0" TextColor="White"/>
+                                            <StackLayout.GestureRecognizers>
+                                                <TapGestureRecognizer Command="{Binding CountrybookSelectedCommand}" NumberOfTapsRequired="1">
+
+                                                </TapGestureRecognizer>
+                                            </StackLayout.GestureRecognizers>
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Frame>
+
+                    <Frame IsVisible="{Binding IDbookvisible}" HasShadow="False" Grid.Row="1"  BackgroundColor="#707070" Margin="0,230,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="100" Padding="0">
+                        <ListView  x:Name="BrowseDomainListtttt" BackgroundColor="#707070" ItemsSource="{Binding IDListItem}" Margin="0,0,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand"  SeparatorVisibility="None" RowHeight="32" SelectedItem="{Binding SelectedbookID}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="{Binding BgColor}">
+                                            <Label Text="{Binding IDtypeName}" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center" Margin="10,0,0,0" TextColor="White"/>
+                                            <StackLayout.GestureRecognizers>
+                                                <TapGestureRecognizer Command="{Binding IDbookSelectedCommand}" NumberOfTapsRequired="1">
+
+                                                </TapGestureRecognizer>
+                                            </StackLayout.GestureRecognizers>
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Frame>
+
+
+                    <StackLayout Grid.Row="4" VerticalOptions="Center" Margin="0,5,0,0">
+
+                        <ListView x:Name="lstPersonss" ItemsSource="{Binding SearchId}" RowHeight="25">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <!--<Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="5*"/>
+                                            <ColumnDefinition Width="5*"/>
+                                        </Grid.ColumnDefinitions>-->
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="10">
+                                            <Label Text="{Binding Email}"  HorizontalOptions="CenterAndExpand"/>
+                                            <Label Text="{Binding Name}" HorizontalOptions="CenterAndExpand"/>
+                                            <Label Text="{Binding Mobileno}" HorizontalOptions="CenterAndExpand"/>
+                                            <Label Text="{Binding CompanyName}" HorizontalOptions="CenterAndExpand"/>
+                                            <Label Text="{Binding DesignationName}" HorizontalOptions="CenterAndExpand"/>
+                                            <Label Text="{Binding IDTypeName}" HorizontalOptions="CenterAndExpand"/>
+                                            <Image Source="{Binding Imageimg}"/>
+
+                                            <!--</Grid>-->
+                                        </StackLayout>
+                                    </ViewCell>
+                                    <!--<TextCell Text="{Binding Name}" Detail="{Binding PersonId}"></TextCell>-->
+
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+
+                </Grid>
+
+            </StackLayout>
+        </ContentPage>
+        <ContentPage Title="Scanning Badge" Icon="badge.png" x:Name="homee" BackgroundColor="White">
+            <StackLayout>
+                <Entry x:Name="EmailEntry" Placeholder="email">
+                    <Entry.Behaviors>
+                        <behaviors:BehaviorEntryvalid/>
+                    </Entry.Behaviors>
+                </Entry>
+                <Button Text="Submit" />
+            </StackLayout>
+        </ContentPage>
+        <ContentPage Title="Scanning Ticket" Icon="scan.png" BackgroundColor="White">
+            <StackLayout Spacing="2" Padding="10" Grid.Row="1" VerticalOptions="StartAndExpand">
+                <!--<Button x:Name="takePhoto" Text="Take Photo"/>
+                <Button x:Name="pickPhoto" Text="Pick Photo"/>-->
+                <!--<Button x:Name="takeVideo" Text="Take Video"/>
+				<Buttbbbon x:Name="pickVideo" Text="Pick Video"/>-->
+
+                <!--<Image x:Name="image" HeightRequest="150" WidthRequest="150"/>-->
+                <Button Text="Scan" Grid.Row="1" HeightRequest="40" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Button_Clicked" />
+                <Label x:Name="qrLabel" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+
+                <zxing:ZXingBarcodeImageView x:Name="BarcodeImageView" 
+                            BarcodeValue="Foo" IsVisible="False"
+                            BarcodeFormat="QR_CODE"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="FillAndExpand">
+                    <zxing:ZXingBarcodeImageView.BarcodeOptions>
+                        <zxcm:EncodingOptions Width="200" Height="200" />
+                    </zxing:ZXingBarcodeImageView.BarcodeOptions>
+                </zxing:ZXingBarcodeImageView>
+            </StackLayout>
+
+        </ContentPage>
+        <ContentPage Title="View Details" Icon="detail.png" BackgroundColor="White">
+          
+        </ContentPage>
+    </controls:ExtendedTabbedPage.Children>
+</controls:ExtendedTabbedPage>
