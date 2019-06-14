@@ -4,5 +4,8 @@
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="PrintingApp.Views.TicketPrintScreen">
-  
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="" x:Name="txtMessage" HorizontalOptions="Center" VerticalOptions="Center"/>
+    </StackLayout>
 </ContentPage>

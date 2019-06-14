@@ -12,10 +12,10 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height=".8*"/>
-            <RowDefinition Height=".7*"/>
+            <RowDefinition Height="1.8*"/>
             <RowDefinition Height="4.5*"/>
             <RowDefinition Height="2.3*"/>
-            <RowDefinition Height="1.8*"/>
+            <RowDefinition Height=".7*"/>
         </Grid.RowDefinitions>
         <StackLayout Orientation="Horizontal" Spacing="50" Grid.Row="0">
             <Image Source="back.png" HeightRequest="25" WidthRequest="25" HorizontalOptions="Start" Margin="10,0,0,0">
@@ -26,7 +26,14 @@
             <Label Text="FORM" FontSize="24" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold" Margin="50,10,0,0"/>
         </StackLayout>
         <!--<Button Text="Scan" Grid.Row="1" HeightRequest="40" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Generate_Barcode" />-->
-
+        <StackLayout Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="10,0,10,0">
+            <Picker ItemsSource="{Binding DeviceList}"
+                    Title="Select Device"
+                    ItemDisplayBinding="{Binding .}"
+                    SelectedItem="{Binding SelectedDevice}" />
+            <Entry Text="{Binding PrintMessage}"
+                   Placeholder="Message"/>
+        </StackLayout>
         <StackLayout Grid.Row="2" Spacing="20" VerticalOptions="EndAndExpand">
            
             <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="10,0,10,0" Spacing="5">
@@ -47,7 +54,7 @@
         <StackLayout Grid.Row="3" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" WidthRequest="200" Orientation="Horizontal" Spacing="10" Margin="10,20,0,0">
                 <zxing:ZXingBarcodeImageView x:Name="BarcodeImageView"
                             BarcodeValue="prash" IsVisible="False"
-                            BarcodeFormat="UPC_A"
+                            BarcodeFormat="CODE_128"
                             HorizontalOptions="FillAndExpand"
                             VerticalOptions="FillAndExpand">
                 <zxing:ZXingBarcodeImageView.BarcodeOptions>
@@ -56,7 +63,7 @@
             </zxing:ZXingBarcodeImageView>
             <zxing:ZXingBarcodeImageView x:Name="QRcodeImageView" BackgroundColor="Transparent"
                             BarcodeValue="Foo" IsVisible="False"
-                            BarcodeFormat="CODE_128"
+                            BarcodeFormat="QR_CODE"
                             HorizontalOptions="FillAndExpand"
                             VerticalOptions="FillAndExpand">
                 <zxing:ZXingBarcodeImageView.BarcodeOptions>
@@ -64,6 +71,6 @@
                 </zxing:ZXingBarcodeImageView.BarcodeOptions>
             </zxing:ZXingBarcodeImageView>
         </StackLayout>
-        <Button Text="Print" Grid.Row="4" HorizontalOptions="FillAndExpand" HeightRequest="70" Clicked="Button_Clicked"/>
+        <Button Text="Print" Grid.Row="4" HorizontalOptions="FillAndExpand" HeightRequest="70" Command="{Binding PrintCommand}" Margin="10,0,10,0"/>
     </Grid>
 </ContentPage>     

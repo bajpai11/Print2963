@@ -4,9 +4,11 @@ namespace PrintingApp.Views
 {
     public partial class TicketPrintScreen : ContentPage
     {
-        public TicketPrintScreen()
+        public TicketPrintScreen(string printmsg)
         {
             InitializeComponent();
+
+            txtMessage.Text = printmsg;
         }
     }
 }
