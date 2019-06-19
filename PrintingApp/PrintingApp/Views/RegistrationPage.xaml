@@ -12,9 +12,10 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height=".8*"/>
-            <RowDefinition Height="1.8*"/>
+            <RowDefinition Height=".1*"/>
             <RowDefinition Height="4.5*"/>
-            <RowDefinition Height="2.3*"/>
+            <RowDefinition Height="3.7*"/>
+            <RowDefinition Height=".8*"/>
             <RowDefinition Height=".7*"/>
         </Grid.RowDefinitions>
         <StackLayout Orientation="Horizontal" Spacing="50" Grid.Row="0">
@@ -26,14 +27,14 @@
             <Label Text="FORM" FontSize="24" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold" Margin="50,10,0,0"/>
         </StackLayout>
         <!--<Button Text="Scan" Grid.Row="1" HeightRequest="40" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Generate_Barcode" />-->
-        <StackLayout Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="10,0,10,0">
+        <!--<StackLayout Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="10,0,10,0">
             <Picker ItemsSource="{Binding DeviceList}"
                     Title="Select Device"
                     ItemDisplayBinding="{Binding .}"
                     SelectedItem="{Binding SelectedDevice}" />
             <Entry Text="{Binding PrintMessage}"
                    Placeholder="Message"/>
-        </StackLayout>
+        </StackLayout>-->
         <StackLayout Grid.Row="2" Spacing="20" VerticalOptions="EndAndExpand">
            
             <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="10,0,10,0" Spacing="5">
@@ -42,12 +43,13 @@
                 <Label Text="Name" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Start"/>
                 <Label Text="" x:Name="textname" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
                 <Label Text="Mobile No." TextColor="Black" FontAttributes="Bold" HorizontalOptions="Start"/>
-                <Label Text="" x:Name="textCompany" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+                <Label Text="" x:Name="textMobile" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/> 
                 <Label Text="Company Name" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Start"/>
-                <Label Text="" x:Name="textMobile" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
-                <Label Text="" x:Name="textDesignation" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+                <Label Text="" x:Name="textCompany" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
                 <Label Text="ID No." TextColor="Black" FontAttributes="Bold" HorizontalOptions="Start"/>
                <Label Text="" x:Name="textIDType" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+                <Label Text="" x:Name="textKey" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+
             </StackLayout>
             <!--</Grid>-->
         </StackLayout>
@@ -71,6 +73,7 @@
                 </zxing:ZXingBarcodeImageView.BarcodeOptions>
             </zxing:ZXingBarcodeImageView>
         </StackLayout>
-        <Button Text="Print" Grid.Row="4" HorizontalOptions="FillAndExpand" HeightRequest="70" Command="{Binding PrintCommand}" Margin="10,0,10,0"/>
+        <Image x:Name="imgImage" Grid.Row="4"/>
+        <Button Text="Print" Grid.Row="5" HorizontalOptions="FillAndExpand" HeightRequest="70" Clicked="PDF_Clicked" Margin="10,0,10,0"/>
     </Grid>
 </ContentPage>     

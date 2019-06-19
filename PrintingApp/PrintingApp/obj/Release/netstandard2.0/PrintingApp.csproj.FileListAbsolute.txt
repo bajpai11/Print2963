@@ -1,0 +1,17 @@
+E:\newapp\Print2963\PrintingApp\PrintingApp\bin\Release\netstandard2.0\PrintingApp.deps.json
+E:\newapp\Print2963\PrintingApp\PrintingApp\bin\Release\netstandard2.0\PrintingApp.dll
+E:\newapp\Print2963\PrintingApp\PrintingApp\bin\Release\netstandard2.0\PrintingApp.pdb
+E:\newapp\Print2963\PrintingApp\PrintingApp\obj\Release\netstandard2.0\PrintingApp.csprojAssemblyReference.cache
+E:\newapp\Print2963\PrintingApp\PrintingApp\obj\Release\netstandard2.0\App.xaml.g.cs
+E:\newapp\Print2963\PrintingApp\PrintingApp\obj\Release\netstandard2.0\Views\CreatePDF.xaml.g.cs
+E:\newapp\Print2963\PrintingApp\PrintingApp\obj\Release\netstandard2.0\Views\DashBoardScreen.xaml.g.cs
+E:\newapp\Print2963\PrintingApp\PrintingApp\obj\Release\netstandard2.0\Views\LoginPage.xaml.g.cs
+E:\newapp\Print2963\PrintingApp\PrintingApp\obj\Release\netstandard2.0\Views\MainPage.xaml.g.cs
+E:\newapp\Print2963\PrintingApp\PrintingApp\obj\Release\netstandard2.0\Views\RegistrationPage.xaml.g.cs
+E:\newapp\Print2963\PrintingApp\PrintingApp\obj\Release\netstandard2.0\Views\TicketPrintScreen.xaml.g.cs
+E:\newapp\Print2963\PrintingApp\PrintingApp\obj\Release\netstandard2.0\PrintingApp.csproj.CoreCompileInputs.cache
+E:\newapp\Print2963\PrintingApp\PrintingApp\obj\Release\netstandard2.0\PrintingApp.AssemblyInfoInputs.cache
+E:\newapp\Print2963\PrintingApp\PrintingApp\obj\Release\netstandard2.0\PrintingApp.AssemblyInfo.cs
+E:\newapp\Print2963\PrintingApp\PrintingApp\obj\Release\netstandard2.0\XamlC.stamp
+E:\newapp\Print2963\PrintingApp\PrintingApp\obj\Release\netstandard2.0\PrintingApp.dll
+E:\newapp\Print2963\PrintingApp\PrintingApp\obj\Release\netstandard2.0\PrintingApp.pdb

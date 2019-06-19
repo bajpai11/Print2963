@@ -5,7 +5,8 @@ using Xamarin.Forms;
 
 namespace PrintingApp.Common
 {
-   public class ExtendedTabbedPage : TabbedPage
+    public class ExtendedTabbedPage : TabbedPage
     {
+
     }
 }

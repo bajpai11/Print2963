@@ -2,10 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="PrintingApp.Views.TicketPrintScreen">
 
-    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Label Text="" x:Name="txtMessage" HorizontalOptions="Center" VerticalOptions="Center"/>
-    </StackLayout>
+        <Grid x:Name="pdfViewGrid">
+            <syncfusion:SfPdfViewer x:Name="pdfViewerControl" />
+        </Grid>
+
+    
 </ContentPage>

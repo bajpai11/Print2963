@@ -25,7 +25,7 @@
             </Grid.RowDefinitions>
             <Image Source="iconn.png" HorizontalOptions="Center" Grid.Row="1" HeightRequest="120" WidthRequest="150"/>
             <Label Text="ADMIN LOGIN" FontAttributes="Bold" TextColor="#0762AD" HorizontalOptions="Center" Grid.Row="2" FontSize="Large"/>
-            <Entry x:Name="emailid" Grid.Row="3" TranslationX="12" TextColor="Black" Text="{Binding Username}" Placeholder="Enter Email" TextChanged="Emailid_TextChanged"/>
+            <Entry x:Name="emailid" Grid.Row="3" TranslationX="12" TextColor="Black" Text="{Binding Username}" Placeholder="Enter Email"/>
             <!--<Validations:MPEntry x:Name="emailid" Placeholder="Enter Email"  Text="{Binding Username}" ShowErrorMessage="True" Grid.Row="2" TranslationX="12" TextColor="Black" ></Validations:MPEntry>-->
             <Image Source="login_mail.png" Grid.Row="3" HorizontalOptions="Start" HeightRequest="25" WidthRequest="25"  TranslationX="-13"/>
             <!--<Image Source="line2.png" Grid.Row="5" TranslationY="8" HorizontalOptions="Center"/>-->
@@ -34,7 +34,7 @@
           IsVisible="{Binding HasError}" 
           Text="{Binding ErrorMessage}" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" VerticalOptions="StartAndExpand"
                            FontSize="12" TextColor="#C04D5D"  Grid.Row="3"/>
-            <Entry x:Name="pass" Placeholder="Enter Password" Text="{Binding Password}" IsPassword="True" TextColor="Black" Grid.Row="5" TranslationX="12" TextChanged="Pass_TextChanged"/>
+            <Entry x:Name="pass" Placeholder="Enter Password" Text="{Binding Password}" IsPassword="True" TextColor="Black" Grid.Row="5" TranslationX="12"/>
             <!--<Validations:MPEntry x:Name="pass" Placeholder="Enter Password" Text="{Binding Password}" ShowErrorMessage="True" Grid.Row="4" IsPassword="True" TranslationX="12" TextColor="Black"></Validations:MPEntry>-->
             <Image Source="login_password.png" Grid.Row="5" HorizontalOptions="Start" HeightRequest="25" WidthRequest="25" TranslationX="-13"/>
             <!--<Image Source="line2.png" Grid.Row="7" TranslationY="8" HorizontalOptions="Center"/>-->

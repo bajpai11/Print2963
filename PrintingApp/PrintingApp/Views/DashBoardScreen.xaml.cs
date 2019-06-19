@@ -4,6 +4,7 @@ using Plugin.Permissions;
 using Plugin.Permissions.Abstractions;
 using PrintingApp.Common;
 using PrintingApp.Helper;
+using PrintingApp.Interface;
 using PrintingApp.Models;
 using PrintingApp.ViewModels;
 using System;
@@ -39,14 +40,19 @@ namespace PrintingApp.Views
                 bool IsPasscode4null = StringHelper.IsEmpty(txtCompany.Text);
                 bool IsPasscode5null = StringHelper.IsEmpty(txtIDtype.Text);
 
-          //      var Passcode = txtName.Text+ "Email" + txtEmail.Text + txtMobile.Text + txtCompany.Text + txtIDtype.Text;
-                var QRCode = $"{txtEmail.Text}, {txtCompany.Text}, {txtName.Text}, {txtMobile.Text}, {txtIDtype.Text}";
+                 var QRCode = $"{txtEmail.Text}, {txtCompany.Text}, {txtName.Text}, {txtMobile.Text}, {txtIDtype.Text}";
                 var BarCode = $"{txtName.Text}, {txtIDtype.Text}";
+                // var keycode = $"{"a"}";
                 App.Current.Properties["Passcode"] = QRCode;
                 App.Current.Properties["Barcodee"] = BarCode;
-                App.Current.MainPage = new NavigationPage(new RegistrationPage(txtName.Text, txtEmail.Text, txtMobile.Text, txtCompany.Text, txtIDtype.Text));
+                //App.Current.Properties["key"] = keycode;
+                App.Current.MainPage = new NavigationPage(new RegistrationPage(txtName.Text, txtEmail.Text, txtMobile.Text, txtCompany.Text, txtIDtype.Text, image.Source));
+
+
+                //   var bc = (DashBoardScreenViewModel) ;
                 //Person person = new Person()
                 //{
+                   
                 //    Name = txtName.Text,
                 //    Email = txtEmail.Text,
                 //    Mobileno = txtMobile.Text,
@@ -59,7 +65,7 @@ namespace PrintingApp.Views
 
                 //};
                 ////Add New Person
-                //App.LiteDB.AddPerson(person);
+               //App.LiteDB.AddPerson(person);
                 //txtName.Text = string.Empty;
                 //txtEmail.Text = string.Empty;
                 //txtMobile.Text = string.Empty;
@@ -166,18 +172,40 @@ namespace PrintingApp.Views
         {
             try
             {
-                var CodeResult = App.Current.Properties["Passcode"].ToString();
-                var BarCodeResult = App.Current.Properties["Barcodee"].ToString();
+                // var CodeResult = App.Current.Properties["Passcode"].ToString();
+                //  var BarCodeResult = App.Current.Properties["Barcodee"].ToString();
+
                 var scan = new ZXingScannerPage();
                 await Navigation.PushAsync(scan);
                 scan.OnScanResult += (BarcodeValue) =>
                 {
-                    if (BarCodeResult == BarcodeValue.ToString() || CodeResult == BarcodeValue.ToString())
+                    if (App.Current.Properties["Barcodee"].ToString() != BarcodeValue.ToString() || App.Current.Properties["Passcode"].ToString() != BarcodeValue.ToString())
                     {
+                       // App.LiteDB.AddPerson();
                         Device.BeginInvokeOnMainThread(async () =>
                         {
                             await Navigation.PopAsync();
-                            qrLabel.Text = BarcodeValue.Text;
+                             qrLabel.Text = BarcodeValue.Text;
+
+
+                            Person person = new Person()
+                            {
+
+                                Name = qrLabel.Text
+                                // Email = txtEmail.Text,
+                                // Mobileno = txtMobile.Text,
+                                // CompanyName = txtCompany.Text,
+                                //IDTypeName = txtIDtype.Text,
+
+                                //    Imageimg = image.Source
+
+                            };
+                            App.LiteDB.AddPerson(person);
+                            var personListt = App.LiteDB.GetAllPersons();
+                            if (personListt.Count != 0)
+                            {
+                               lstPersons.ItemsSource = personListt;
+                            }
                         });
 
                     }
@@ -192,11 +220,29 @@ namespace PrintingApp.Views
                     }
                 };
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                DisplayAlert("Alert","Barcode value is empty","ok");
+                DisplayAlert("Alert", "Barcode value is empty", "ok");
             }
-           
+            //try
+            //{
+            //    var scanner = DependencyService.Get<IQrScanningService>();
+            //    var result = await scanner.ScanAsync();
+            //    if (result != null)
+            //    {
+            //        qrLabel.Text = result;
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+
+            //    throw;
+            //}
+
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
 
         }
         //private async void Button_Clicked(object sender, EventArgs e)

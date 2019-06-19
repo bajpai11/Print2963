@@ -2,4 +2,9 @@
 <paths xmlns:android="http://schemas.android.com/apk/res/android">
   <external-files-path name="my_images" path="Pictures" />
   <external-files-path name="my_movies" path="Movies" />
+  <external-path name="Download" path="."/>
+  <external-path name="files" path=""/>
+  <external-path name="cache" path=""/>
+  <external-path name="external_files" path="."/>
+  <internal-path name="internal_files" path="."/>
 </paths>

@@ -26,6 +26,289 @@ namespace PrintingApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::PrintingApp.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::PrintingApp.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorAnimationTypes = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorAnimationTypes;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorIsBusy = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorIsBusy;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorSecondaryColor = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorSecondaryColor;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorTextColor = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorTextColor;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorTextSize = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorTextSize;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorTitle = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorTitle;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorTitlePlacement = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorTitlePlacement;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorViewBoxHeight = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorViewBoxHeight;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorViewBoxWidth = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorViewBoxWidth;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.ball = global::PrintingApp.Droid.Resource.Id.ball;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.battery = global::PrintingApp.Droid.Resource.Id.battery;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.bottom = global::PrintingApp.Droid.Resource.Id.bottom;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.box = global::PrintingApp.Droid.Resource.Id.box;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.doubleCircle = global::PrintingApp.Droid.Resource.Id.doubleCircle;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.ecg = global::PrintingApp.Droid.Resource.Id.ecg;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.gearBox = global::PrintingApp.Droid.Resource.Id.gearBox;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.globe = global::PrintingApp.Droid.Resource.Id.globe;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.horizontalPulsingBox = global::PrintingApp.Droid.Resource.Id.horizontalPulsingBox;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.movieTimer = global::PrintingApp.Droid.Resource.Id.movieTimer;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.none = global::PrintingApp.Droid.Resource.Id.none;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.print = global::PrintingApp.Droid.Resource.Id.print;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.rectangle = global::PrintingApp.Droid.Resource.Id.rectangle;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.rollingBall = global::PrintingApp.Droid.Resource.Id.rollingBall;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.singleCircle = global::PrintingApp.Droid.Resource.Id.singleCircle;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.slicedCircle = global::PrintingApp.Droid.Resource.Id.slicedCircle;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.top = global::PrintingApp.Droid.Resource.Id.top;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.zoomingTarget = global::PrintingApp.Droid.Resource.Id.zoomingTarget;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.String.library_name = global::PrintingApp.Droid.Resource.String.library_name;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorAnimationTypes = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorAnimationTypes;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorIsBusy = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorIsBusy;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorSecondaryColor = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorSecondaryColor;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorTextColor = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTextColor;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorTextSize = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTextSize;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorTitle = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTitle;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorTitlePlacement = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTitlePlacement;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxHeight = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxHeight;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxWidth = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorAnimationTypes = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorAnimationTypes;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorIsBusy = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorIsBusy;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorSecondaryColor = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorSecondaryColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorTextColor = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorTextSize = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorTextSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorTitle = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorTitlePlacement = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorTitlePlacement;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorViewBoxHeight = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorViewBoxHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorViewBoxWidth = global::PrintingApp.Droid.Resource.Attribute.busyIndicatorViewBoxWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderDirectionReversed = global::PrintingApp.Droid.Resource.Attribute.rangeSliderDirectionReversed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderEndValue = global::PrintingApp.Droid.Resource.Attribute.rangeSliderEndValue;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderKnobColor = global::PrintingApp.Droid.Resource.Attribute.rangeSliderKnobColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderMaximum = global::PrintingApp.Droid.Resource.Attribute.rangeSliderMaximum;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderMinimum = global::PrintingApp.Droid.Resource.Attribute.rangeSliderMinimum;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderOrientation = global::PrintingApp.Droid.Resource.Attribute.rangeSliderOrientation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderShowRange = global::PrintingApp.Droid.Resource.Attribute.rangeSliderShowRange;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderShowValueLabel = global::PrintingApp.Droid.Resource.Attribute.rangeSliderShowValueLabel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderStartValue = global::PrintingApp.Droid.Resource.Attribute.rangeSliderStartValue;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderThumbSize = global::PrintingApp.Droid.Resource.Attribute.rangeSliderThumbSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderTickPlacement = global::PrintingApp.Droid.Resource.Attribute.rangeSliderTickPlacement;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderTrackColor = global::PrintingApp.Droid.Resource.Attribute.rangeSliderTrackColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderTrackSelectionColor = global::PrintingApp.Droid.Resource.Attribute.rangeSliderTrackSelectionColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderValue = global::PrintingApp.Droid.Resource.Attribute.rangeSliderValue;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderValuePlacement = global::PrintingApp.Droid.Resource.Attribute.rangeSliderValuePlacement;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.label_font_size = global::PrintingApp.Droid.Resource.Dimension.label_font_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.thumb_size = global::PrintingApp.Droid.Resource.Dimension.thumb_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tick_size = global::PrintingApp.Droid.Resource.Dimension.tick_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tool_bottom = global::PrintingApp.Droid.Resource.Dimension.tool_bottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tool_left = global::PrintingApp.Droid.Resource.Dimension.tool_left;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tool_right = global::PrintingApp.Droid.Resource.Dimension.tool_right;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tool_top = global::PrintingApp.Droid.Resource.Dimension.tool_top;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_textsize = global::PrintingApp.Droid.Resource.Dimension.tooltip_textsize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.track_size = global::PrintingApp.Droid.Resource.Dimension.track_size;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.Annotation = global::PrintingApp.Droid.Resource.Drawable.Annotation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.Bookmark = global::PrintingApp.Droid.Resource.Drawable.Bookmark;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.CheckableMaterialColor = global::PrintingApp.Droid.Resource.Drawable.CheckableMaterialColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.editTextPageCount = global::PrintingApp.Droid.Resource.Drawable.editTextPageCount;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.FormFieldCheckbox = global::PrintingApp.Droid.Resource.Drawable.FormFieldCheckbox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.FormFieldCheckbox_Checked = global::PrintingApp.Droid.Resource.Drawable.FormFieldCheckbox_Checked;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.FormFieldCheckbox_UnChecked = global::PrintingApp.Droid.Resource.Drawable.FormFieldCheckbox_UnChecked;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.formfieldradiobuttonstyle = global::PrintingApp.Droid.Resource.Drawable.formfieldradiobuttonstyle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.formfieldtextboxcursorcolor = global::PrintingApp.Droid.Resource.Drawable.formfieldtextboxcursorcolor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.inputlayout_togglecollapseicon = global::PrintingApp.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.inputlayout_togglevisibleicon = global::PrintingApp.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.More = global::PrintingApp.Droid.Resource.Drawable.More;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.Search = global::PrintingApp.Droid.Resource.Drawable.Search;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.SignaturepadRoundedCorners = global::PrintingApp.Droid.Resource.Drawable.SignaturepadRoundedCorners;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.ball = global::PrintingApp.Droid.Resource.Id.ball;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.battery = global::PrintingApp.Droid.Resource.Id.battery;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.bottom = global::PrintingApp.Droid.Resource.Id.bottom;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.bottomBar = global::PrintingApp.Droid.Resource.Id.bottomBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.bottomRight = global::PrintingApp.Droid.Resource.Id.bottomRight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.box = global::PrintingApp.Droid.Resource.Id.box;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.cancelButton = global::PrintingApp.Droid.Resource.Id.cancelButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.@checked = global::PrintingApp.Droid.Resource.Id.@checked;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.clearButton = global::PrintingApp.Droid.Resource.Id.clearButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.doneButton = global::PrintingApp.Droid.Resource.Id.doneButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.doubleCircle = global::PrintingApp.Droid.Resource.Id.doubleCircle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.ecg = global::PrintingApp.Droid.Resource.Id.ecg;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formCheckBoxButton = global::PrintingApp.Droid.Resource.Id.formCheckBoxButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formContentButton = global::PrintingApp.Droid.Resource.Id.formContentButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formListLayout = global::PrintingApp.Droid.Resource.Id.formListLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formRadioButton = global::PrintingApp.Droid.Resource.Id.formRadioButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formTextButton = global::PrintingApp.Droid.Resource.Id.formTextButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formfieldButton = global::PrintingApp.Droid.Resource.Id.formfieldButton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.gearBox = global::PrintingApp.Droid.Resource.Id.gearBox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.globe = global::PrintingApp.Droid.Resource.Id.globe;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.horizontal = global::PrintingApp.Droid.Resource.Id.horizontal;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.horizontalPulsingBox = global::PrintingApp.Droid.Resource.Id.horizontalPulsingBox;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.inline = global::PrintingApp.Droid.Resource.Id.inline;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.movieTimer = global::PrintingApp.Droid.Resource.Id.movieTimer;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.none = global::PrintingApp.Droid.Resource.Id.none;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.outside = global::PrintingApp.Droid.Resource.Id.outside;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.print = global::PrintingApp.Droid.Resource.Id.print;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.rectangle = global::PrintingApp.Droid.Resource.Id.rectangle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.rollingBall = global::PrintingApp.Droid.Resource.Id.rollingBall;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.signatureLabel = global::PrintingApp.Droid.Resource.Id.signatureLabel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.signaturePadContainer = global::PrintingApp.Droid.Resource.Id.signaturePadContainer;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.signatureviewlayout = global::PrintingApp.Droid.Resource.Id.signatureviewlayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.singleCircle = global::PrintingApp.Droid.Resource.Id.singleCircle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.slicedCircle = global::PrintingApp.Droid.Resource.Id.slicedCircle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.top = global::PrintingApp.Droid.Resource.Id.top;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.topBar = global::PrintingApp.Droid.Resource.Id.topBar;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.topLeft = global::PrintingApp.Droid.Resource.Id.topLeft;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.@unchecked = global::PrintingApp.Droid.Resource.Id.@unchecked;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.vertical = global::PrintingApp.Droid.Resource.Id.vertical;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.zoomingTarget = global::PrintingApp.Droid.Resource.Id.zoomingTarget;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.dialogListViewRow = global::PrintingApp.Droid.Resource.Layout.dialogListViewRow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.formfieldButtonLayout = global::PrintingApp.Droid.Resource.Layout.formfieldButtonLayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.listViewRow = global::PrintingApp.Droid.Resource.Layout.listViewRow;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.signaturepadlayout = global::PrintingApp.Droid.Resource.Layout.signaturepadlayout;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerCancel = global::PrintingApp.Droid.Resource.String.SfPdfViewerCancel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerCopy = global::PrintingApp.Droid.Resource.String.SfPdfViewerCopy;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerHighlight = global::PrintingApp.Droid.Resource.String.SfPdfViewerHighlight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerHyperlinkMessage = global::PrintingApp.Droid.Resource.String.SfPdfViewerHyperlinkMessage;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerHyperlinkMessageTitle = global::PrintingApp.Droid.Resource.String.SfPdfViewerHyperlinkMessageTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerHyperlinkOpen = global::PrintingApp.Droid.Resource.String.SfPdfViewerHyperlinkOpen;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerStrikethrough = global::PrintingApp.Droid.Resource.String.SfPdfViewerStrikethrough;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerUnderline = global::PrintingApp.Droid.Resource.String.SfPdfViewerUnderline;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.library_name = global::PrintingApp.Droid.Resource.String.library_name;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_annotationsbackbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_annotationsbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_annotationsbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_annotationsbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_arrowbackbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_arrowbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_arrowbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_arrowbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_backbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_backbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_blackcolorbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_blackcolorbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_bookmarksbackbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_bookmarksbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_bookmarksbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_bookmarksbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_bookmarksclosebutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_bookmarksclosebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_cancel = global::PrintingApp.Droid.Resource.String.sfpdfviewer_cancel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_cancelsearchbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_cancelsearchbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_clearsearchbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_clearsearchbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_colorbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_colorbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_cyancolorbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_cyancolorbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_deletebutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_deletebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_done = global::PrintingApp.Droid.Resource.String.sfpdfviewer_done;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_ellipsebackbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_ellipsebackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_ellipsebutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_ellipsebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_fontsizebutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_fontsizebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_freetextbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_freetextbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_greencolorbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_greencolorbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_highlightbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_highlightbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_highlighttextbackbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_highlighttextbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_hinttext = global::PrintingApp.Droid.Resource.String.sfpdfviewer_hinttext;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_inkbackbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_inkbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_inkbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_inkbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_linebackbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_linebackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_linebutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_linebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_magentacolorbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_magentacolorbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_moreoptionsbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_moreoptionsbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_nextlevelbookmarksbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_nextlevelbookmarksbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_opacitybutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_opacitybutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_pagedownbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_pagedownbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_pageupbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_pageupbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_polygonbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_polygonbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_previouslevelbookmarksbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_previouslevelbookmarksbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_rectanglebackbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_rectanglebackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_rectanglebutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_rectanglebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_redcolorbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_redcolorbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_redobutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_redobutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_redoinkbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_redoinkbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_savebutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_savebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_searchbackbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_searchbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_searchbarplaceholdertext = global::PrintingApp.Droid.Resource.String.sfpdfviewer_searchbarplaceholdertext;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_searchbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_searchbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_searchnextbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_searchnextbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_searchpreviousbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_searchpreviousbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_shapesbackbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_shapesbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_shapesbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_shapesbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_signaturebutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_signaturebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_signaturepad_cancel = global::PrintingApp.Droid.Resource.String.sfpdfviewer_signaturepad_cancel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_signaturepad_clear = global::PrintingApp.Droid.Resource.String.sfpdfviewer_signaturepad_clear;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_signaturepad_done = global::PrintingApp.Droid.Resource.String.sfpdfviewer_signaturepad_done;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_strikethroughbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_strikethroughbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_strikethroughtextbackbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_strikethroughtextbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_textbackbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_textbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_textmarkupsbackbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_textmarkupsbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_textmarkupsbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_textmarkupsbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknessbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_thicknessbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknessfivebutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_thicknessfivebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknessninebutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_thicknessninebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknessonebutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_thicknessonebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknesssevenbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_thicknesssevenbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknesthreebutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_thicknesthreebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_underlinebutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_underlinebutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_underlinetextbackbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_underlinetextbackbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_undobutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_undobutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_undoinkbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_undoinkbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_yellowcolorbutton = global::PrintingApp.Droid.Resource.String.sfpdfviewer_yellowcolorbutton;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorAnimationTypes = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorAnimationTypes;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorIsBusy = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorIsBusy;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorSecondaryColor = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorSecondaryColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTextColor = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTextColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTextSize = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTextSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTitle = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTitle;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTitlePlacement = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTitlePlacement;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxHeight = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxHeight;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxWidth = global::PrintingApp.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxWidth;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderDirectionReversed = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderDirectionReversed;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderEndValue = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderEndValue;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderKnobColor = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderKnobColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderMaximum = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderMaximum;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderMinimum = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderMinimum;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderOrientation = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderOrientation;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderShowRange = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderShowRange;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderShowValueLabel = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderShowValueLabel;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderStartValue = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderStartValue;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderThumbSize = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderThumbSize;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTickPlacement = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTickPlacement;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTrackColor = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTrackColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTrackSelectionColor = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTrackSelectionColor;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderValue = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderValue;
+			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderValuePlacement = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderValuePlacement;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderDirectionReversed = global::PrintingApp.Droid.Resource.Attribute.rangeSliderDirectionReversed;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderEndValue = global::PrintingApp.Droid.Resource.Attribute.rangeSliderEndValue;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderKnobColor = global::PrintingApp.Droid.Resource.Attribute.rangeSliderKnobColor;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderMaximum = global::PrintingApp.Droid.Resource.Attribute.rangeSliderMaximum;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderMinimum = global::PrintingApp.Droid.Resource.Attribute.rangeSliderMinimum;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderOrientation = global::PrintingApp.Droid.Resource.Attribute.rangeSliderOrientation;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderShowRange = global::PrintingApp.Droid.Resource.Attribute.rangeSliderShowRange;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderShowValueLabel = global::PrintingApp.Droid.Resource.Attribute.rangeSliderShowValueLabel;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderStartValue = global::PrintingApp.Droid.Resource.Attribute.rangeSliderStartValue;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderThumbSize = global::PrintingApp.Droid.Resource.Attribute.rangeSliderThumbSize;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderTickPlacement = global::PrintingApp.Droid.Resource.Attribute.rangeSliderTickPlacement;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderTrackColor = global::PrintingApp.Droid.Resource.Attribute.rangeSliderTrackColor;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderTrackSelectionColor = global::PrintingApp.Droid.Resource.Attribute.rangeSliderTrackSelectionColor;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderValue = global::PrintingApp.Droid.Resource.Attribute.rangeSliderValue;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderValuePlacement = global::PrintingApp.Droid.Resource.Attribute.rangeSliderValuePlacement;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.label_font_size = global::PrintingApp.Droid.Resource.Dimension.label_font_size;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.thumb_size = global::PrintingApp.Droid.Resource.Dimension.thumb_size;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tick_size = global::PrintingApp.Droid.Resource.Dimension.tick_size;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tool_bottom = global::PrintingApp.Droid.Resource.Dimension.tool_bottom;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tool_left = global::PrintingApp.Droid.Resource.Dimension.tool_left;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tool_right = global::PrintingApp.Droid.Resource.Dimension.tool_right;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tool_top = global::PrintingApp.Droid.Resource.Dimension.tool_top;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tooltip_textsize = global::PrintingApp.Droid.Resource.Dimension.tooltip_textsize;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.track_size = global::PrintingApp.Droid.Resource.Dimension.track_size;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Id.bottomRight = global::PrintingApp.Droid.Resource.Id.bottomRight;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Id.horizontal = global::PrintingApp.Droid.Resource.Id.horizontal;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Id.inline = global::PrintingApp.Droid.Resource.Id.inline;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Id.none = global::PrintingApp.Droid.Resource.Id.none;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Id.outside = global::PrintingApp.Droid.Resource.Id.outside;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Id.topLeft = global::PrintingApp.Droid.Resource.Id.topLeft;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Id.vertical = global::PrintingApp.Droid.Resource.Id.vertical;
+			global::Com.Syncfusion.Sfrangeslider.Resource.String.library_name = global::PrintingApp.Droid.Resource.String.library_name;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderDirectionReversed = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderDirectionReversed;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderEndValue = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderEndValue;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderKnobColor = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderKnobColor;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderMaximum = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderMaximum;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderMinimum = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderMinimum;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderOrientation = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderOrientation;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderShowRange = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderShowRange;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderShowValueLabel = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderShowValueLabel;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderStartValue = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderStartValue;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderThumbSize = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderThumbSize;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderTickPlacement = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTickPlacement;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderTrackColor = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTrackColor;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderTrackSelectionColor = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTrackSelectionColor;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderValue = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderValue;
+			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderValuePlacement = global::PrintingApp.Droid.Resource.Styleable.SfRangeSlider_rangeSliderValuePlacement;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::PrintingApp.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::PrintingApp.Droid.Resource.Attribute.fontProviderAuthority;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::PrintingApp.Droid.Resource.Attribute.fontProviderCerts;
@@ -2124,17 +2407,17 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F01000E
 			public const int design_snackbar_out = 2130771982;
 			
-			// aapt resource value: 0x7F090018
-			public const int EnterFromLeft = 2131296280;
+			// aapt resource value: 0x7F110018
+			public const int EnterFromLeft = 2131820568;
 			
-			// aapt resource value: 0x7F090019
-			public const int EnterFromRight = 2131296281;
+			// aapt resource value: 0x7F110019
+			public const int EnterFromRight = 2131820569;
 			
-			// aapt resource value: 0x7F090020
-			public const int ExitToLeft = 2131296288;
+			// aapt resource value: 0x7F110020
+			public const int ExitToLeft = 2131820576;
 			
-			// aapt resource value: 0x7F090021
-			public const int ExitToRight = 2131296289;
+			// aapt resource value: 0x7F110021
+			public const int ExitToRight = 2131820577;
 			
 			// aapt resource value: 0x7F01000F
 			public const int tooltip_enter = 2130771983;
@@ -2362,6 +2645,33 @@ namespace PrintingApp.Droid
 			
 			// aapt resource value: 0x7F040040
 			public const int bottomSheetStyle = 2130968640;
+			
+			// aapt resource value: 0x7F090002
+			public const int busyIndicatorAnimationTypes = 2131296258;
+			
+			// aapt resource value: 0x7F090010
+			public const int busyIndicatorIsBusy = 2131296272;
+			
+			// aapt resource value: 0x7F090008
+			public const int busyIndicatorSecondaryColor = 2131296264;
+			
+			// aapt resource value: 0x7F090003
+			public const int busyIndicatorTextColor = 2131296259;
+			
+			// aapt resource value: 0x7F090007
+			public const int busyIndicatorTextSize = 2131296263;
+			
+			// aapt resource value: 0x7F090006
+			public const int busyIndicatorTitle = 2131296262;
+			
+			// aapt resource value: 0x7F090009
+			public const int busyIndicatorTitlePlacement = 2131296265;
+			
+			// aapt resource value: 0x7F090004
+			public const int busyIndicatorViewBoxHeight = 2131296260;
+			
+			// aapt resource value: 0x7F090005
+			public const int busyIndicatorViewBoxWidth = 2131296261;
 			
 			// aapt resource value: 0x7F040041
 			public const int buttonBarButtonStyle = 2130968641;
@@ -2950,6 +3260,51 @@ namespace PrintingApp.Droid
 			
 			// aapt resource value: 0x7F0400EB
 			public const int radioButtonStyle = 2130968811;
+			
+			// aapt resource value: 0x7F090018
+			public const int rangeSliderDirectionReversed = 2131296280;
+			
+			// aapt resource value: 0x7F090024
+			public const int rangeSliderEndValue = 2131296292;
+			
+			// aapt resource value: 0x7F090011
+			public const int rangeSliderKnobColor = 2131296273;
+			
+			// aapt resource value: 0x7F090022
+			public const int rangeSliderMaximum = 2131296290;
+			
+			// aapt resource value: 0x7F090021
+			public const int rangeSliderMinimum = 2131296289;
+			
+			// aapt resource value: 0x7F090017
+			public const int rangeSliderOrientation = 2131296279;
+			
+			// aapt resource value: 0x7F090015
+			public const int rangeSliderShowRange = 2131296277;
+			
+			// aapt resource value: 0x7F090014
+			public const int rangeSliderShowValueLabel = 2131296276;
+			
+			// aapt resource value: 0x7F090023
+			public const int rangeSliderStartValue = 2131296291;
+			
+			// aapt resource value: 0x7F090025
+			public const int rangeSliderThumbSize = 2131296293;
+			
+			// aapt resource value: 0x7F090019
+			public const int rangeSliderTickPlacement = 2131296281;
+			
+			// aapt resource value: 0x7F090012
+			public const int rangeSliderTrackColor = 2131296274;
+			
+			// aapt resource value: 0x7F090013
+			public const int rangeSliderTrackSelectionColor = 2131296275;
+			
+			// aapt resource value: 0x7F090016
+			public const int rangeSliderValue = 2131296278;
+			
+			// aapt resource value: 0x7F090020
+			public const int rangeSliderValuePlacement = 2131296288;
 			
 			// aapt resource value: 0x7F0400EC
 			public const int ratingBarStyle = 2130968812;
@@ -4040,6 +4395,9 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F080084
 			public const int item_touch_helper_swipe_escape_velocity = 2131230852;
 			
+			// aapt resource value: 0x7F100002
+			public const int label_font_size = 2131755010;
+			
 			// aapt resource value: 0x7F080059
 			public const int mr_controller_volume_group_list_item_height = 2131230809;
 			
@@ -4103,6 +4461,12 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F080014
 			public const int notification_top_pad_large_text = 2131230740;
 			
+			// aapt resource value: 0x7F100003
+			public const int thumb_size = 2131755011;
+			
+			// aapt resource value: 0x7F100005
+			public const int tick_size = 2131755013;
+			
 			// aapt resource value: 0x7F080094
 			public const int tooltip_corner_radius = 2131230868;
 			
@@ -4118,6 +4482,9 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F080098
 			public const int tooltip_precise_anchor_threshold = 2131230872;
 			
+			// aapt resource value: 0x7F100010
+			public const int tooltip_textsize = 2131755024;
+			
 			// aapt resource value: 0x7F080099
 			public const int tooltip_vertical_padding = 2131230873;
 			
@@ -4126,6 +4493,21 @@ namespace PrintingApp.Droid
 			
 			// aapt resource value: 0x7F08009B
 			public const int tooltip_y_offset_touch = 2131230875;
+			
+			// aapt resource value: 0x7F100007
+			public const int tool_bottom = 2131755015;
+			
+			// aapt resource value: 0x7F100008
+			public const int tool_left = 2131755016;
+			
+			// aapt resource value: 0x7F100009
+			public const int tool_right = 2131755017;
+			
+			// aapt resource value: 0x7F100006
+			public const int tool_top = 2131755014;
+			
+			// aapt resource value: 0x7F100004
+			public const int track_size = 2131755012;
 			
 			static Dimension()
 			{
@@ -4389,11 +4771,14 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F090053
 			public const int abc_vector_test = 2131296339;
 			
-			// aapt resource value: 0x7F010020
-			public const int app_logo = 2130772000;
+			// aapt resource value: 0x7F010029
+			public const int Annotation = 2130772009;
 			
 			// aapt resource value: 0x7F010021
-			public const int app_logo_unselected = 2130772001;
+			public const int app_logo = 2130772001;
+			
+			// aapt resource value: 0x7F010022
+			public const int app_logo_unselected = 2130772002;
 			
 			// aapt resource value: 0x7F090054
 			public const int avd_hide_password = 2131296340;
@@ -4406,6 +4791,12 @@ namespace PrintingApp.Droid
 			
 			// aapt resource value: 0x7F010003
 			public const int badge = 2130771971;
+			
+			// aapt resource value: 0x7F010030
+			public const int Bookmark = 2130772016;
+			
+			// aapt resource value: 0x7F010031
+			public const int CheckableMaterialColor = 2130772017;
 			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
@@ -4434,6 +4825,24 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F010006
 			public const int dropdown = 2130771974;
 			
+			// aapt resource value: 0x7F010032
+			public const int editTextPageCount = 2130772018;
+			
+			// aapt resource value: 0x7F010033
+			public const int FormFieldCheckbox = 2130772019;
+			
+			// aapt resource value: 0x7F010034
+			public const int FormFieldCheckbox_Checked = 2130772020;
+			
+			// aapt resource value: 0x7F010035
+			public const int FormFieldCheckbox_UnChecked = 2130772021;
+			
+			// aapt resource value: 0x7F010036
+			public const int formfieldradiobuttonstyle = 2130772022;
+			
+			// aapt resource value: 0x7F010037
+			public const int formfieldtextboxcursorcolor = 2130772023;
+			
 			// aapt resource value: 0x7F010007
 			public const int icon = 2130771975;
 			
@@ -4452,8 +4861,8 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F090057
 			public const int ic_dialog_close_light = 2131296343;
 			
-			// aapt resource value: 0x7F010022
-			public const int ic_favorite = 2130772002;
+			// aapt resource value: 0x7F010023
+			public const int ic_favorite = 2130772003;
 			
 			// aapt resource value: 0x7F090058
 			public const int ic_group_collapse_00 = 2131296344;
@@ -4551,8 +4960,8 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F090077
 			public const int ic_group_expand_15 = 2131296375;
 			
-			// aapt resource value: 0x7F010023
-			public const int ic_home = 2130772003;
+			// aapt resource value: 0x7F010024
+			public const int ic_home = 2130772004;
 			
 			// aapt resource value: 0x7F090078
 			public const int ic_media_pause_dark = 2131296376;
@@ -4959,11 +5368,11 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0900FE
 			public const int ic_mr_button_grey = 2131296510;
 			
-			// aapt resource value: 0x7F010024
-			public const int ic_people = 2130772004;
-			
 			// aapt resource value: 0x7F010025
-			public const int ic_settings = 2130772005;
+			public const int ic_people = 2130772005;
+			
+			// aapt resource value: 0x7F010026
+			public const int ic_settings = 2130772006;
 			
 			// aapt resource value: 0x7F0900FF
 			public const int ic_vol_type_speaker_dark = 2131296511;
@@ -4983,6 +5392,12 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
+			// aapt resource value: 0x7F010027
+			public const int inputlayout_togglecollapseicon = 2130772007;
+			
+			// aapt resource value: 0x7F010028
+			public const int inputlayout_togglevisibleicon = 2130772008;
+			
 			// aapt resource value: 0x7F010009
 			public const int login_mail = 2130771977;
 			
@@ -4991,6 +5406,9 @@ namespace PrintingApp.Droid
 			
 			// aapt resource value: 0x7F010011
 			public const int logo = 2130771985;
+			
+			// aapt resource value: 0x7F010038
+			public const int More = 2130772024;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -5058,6 +5476,9 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F010013
 			public const int nameicon = 2130771987;
 			
+			// aapt resource value: 0x7F010014
+			public const int navbar_mobile = 2130771988;
+			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
 			
@@ -5097,17 +5518,23 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010014
-			public const int register = 2130771988;
-			
 			// aapt resource value: 0x7F010015
-			public const int scan = 2130771989;
+			public const int register = 2130771989;
 			
 			// aapt resource value: 0x7F010016
-			public const int Splash = 2130771990;
+			public const int scan = 2130771990;
+			
+			// aapt resource value: 0x7F010039
+			public const int Search = 2130772025;
+			
+			// aapt resource value: 0x7F010040
+			public const int SignaturepadRoundedCorners = 2130772032;
 			
 			// aapt resource value: 0x7F010017
-			public const int ticket = 2130771991;
+			public const int Splash = 2130771991;
+			
+			// aapt resource value: 0x7F010018
+			public const int ticket = 2130771992;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -5115,11 +5542,11 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010018
-			public const int un = 2130771992;
-			
 			// aapt resource value: 0x7F010019
-			public const int untick = 2130771993;
+			public const int un = 2130771993;
+			
+			// aapt resource value: 0x7F010020
+			public const int untick = 2130772000;
 			
 			static Drawable()
 			{
@@ -5206,20 +5633,38 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0C0018
 			public const int auto = 2131492888;
 			
+			// aapt resource value: 0x7F020005
+			public const int ball = 2130837509;
+			
+			// aapt resource value: 0x7F020006
+			public const int battery = 2130837510;
+			
 			// aapt resource value: 0x7F0C0007
 			public const int blocking = 2131492871;
 			
-			// aapt resource value: 0x7F0C001A
-			public const int bottom = 2131492890;
+			// aapt resource value: 0x7F020021
+			public const int bottom = 2130837537;
 			
-			// aapt resource value: 0x7F020175
-			public const int bottomtab.navarea = 2130837877;
+			// aapt resource value: 0x7F020037
+			public const int bottomBar = 2130837559;
 			
-			// aapt resource value: 0x7F020176
-			public const int bottomtab.tabbar = 2130837878;
+			// aapt resource value: 0x7F020042
+			public const int bottomRight = 2130837570;
+			
+			// aapt resource value: 0x7F020212
+			public const int bottomtab.navarea = 2130838034;
+			
+			// aapt resource value: 0x7F020213
+			public const int bottomtab.tabbar = 2130838035;
+			
+			// aapt resource value: 0x7F020007
+			public const int box = 2130837511;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
+			
+			// aapt resource value: 0x7F020033
+			public const int cancelButton = 2130837555;
 			
 			// aapt resource value: 0x7F0C001C
 			public const int cancel_action = 2131492892;
@@ -5230,14 +5675,20 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0C001E
 			public const int checkbox = 2131492894;
 			
+			// aapt resource value: 0x7F020023
+			public const int @checked = 2130837539;
+			
 			// aapt resource value: 0x7F0C0008
 			public const int chronometer = 2131492872;
+			
+			// aapt resource value: 0x7F020038
+			public const int clearButton = 2130837560;
 			
 			// aapt resource value: 0x7F0C0020
 			public const int container = 2131492896;
 			
-			// aapt resource value: 0x7F020186
-			public const int contentFrame = 2130837894;
+			// aapt resource value: 0x7F020223
+			public const int contentFrame = 2130838051;
 			
 			// aapt resource value: 0x7F0C0021
 			public const int contentPanel = 2131492897;
@@ -5272,6 +5723,15 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0C002B
 			public const int design_navigation_view = 2131492907;
 			
+			// aapt resource value: 0x7F020035
+			public const int doneButton = 2130837557;
+			
+			// aapt resource value: 0x7F020008
+			public const int doubleCircle = 2130837512;
+			
+			// aapt resource value: 0x7F020009
+			public const int ecg = 2130837513;
+			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
 			
@@ -5293,20 +5753,50 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0C0032
 			public const int @fixed = 2131492914;
 			
-			// aapt resource value: 0x7F020177
-			public const int flyoutcontent.appbar = 2130837879;
+			// aapt resource value: 0x7F020214
+			public const int flyoutcontent.appbar = 2130838036;
 			
-			// aapt resource value: 0x7F020178
-			public const int flyoutcontent.recycler = 2130837880;
+			// aapt resource value: 0x7F020215
+			public const int flyoutcontent.recycler = 2130838037;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
 			
+			// aapt resource value: 0x7F020025
+			public const int formCheckBoxButton = 2130837541;
+			
+			// aapt resource value: 0x7F020030
+			public const int formContentButton = 2130837552;
+			
+			// aapt resource value: 0x7F020028
+			public const int formfieldButton = 2130837544;
+			
+			// aapt resource value: 0x7F020029
+			public const int formListLayout = 2130837545;
+			
+			// aapt resource value: 0x7F020027
+			public const int formRadioButton = 2130837543;
+			
+			// aapt resource value: 0x7F020026
+			public const int formTextButton = 2130837542;
+			
+			// aapt resource value: 0x7F020010
+			public const int gearBox = 2130837520;
+			
 			// aapt resource value: 0x7F0C0034
 			public const int ghost_view = 2131492916;
 			
+			// aapt resource value: 0x7F020011
+			public const int globe = 2130837521;
+			
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
+			
+			// aapt resource value: 0x7F020039
+			public const int horizontal = 2130837561;
+			
+			// aapt resource value: 0x7F020012
+			public const int horizontalPulsingBox = 2130837522;
 			
 			// aapt resource value: 0x7F0C000A
 			public const int icon = 2131492874;
@@ -5319,6 +5809,9 @@ namespace PrintingApp.Droid
 			
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
+			
+			// aapt resource value: 0x7F020043
+			public const int inline = 2130837571;
 			
 			// aapt resource value: 0x7F0C000D
 			public const int italic = 2131492877;
@@ -5344,17 +5837,17 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
 			
-			// aapt resource value: 0x7F020179
-			public const int main.appbar = 2130837881;
+			// aapt resource value: 0x7F020216
+			public const int main.appbar = 2130838038;
 			
-			// aapt resource value: 0x7F020182
-			public const int main.scrollview = 2130837890;
+			// aapt resource value: 0x7F020219
+			public const int main.scrollview = 2130838041;
 			
-			// aapt resource value: 0x7F020181
-			public const int main.tablayout = 2130837889;
+			// aapt resource value: 0x7F020218
+			public const int main.tablayout = 2130838040;
 			
-			// aapt resource value: 0x7F020180
-			public const int main.toolbar = 2130837888;
+			// aapt resource value: 0x7F020217
+			public const int main.toolbar = 2130838039;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -5367,6 +5860,9 @@ namespace PrintingApp.Droid
 			
 			// aapt resource value: 0x7F0C0045
 			public const int mini = 2131492933;
+			
+			// aapt resource value: 0x7F020013
+			public const int movieTimer = 2130837523;
 			
 			// aapt resource value: 0x7F0C0033
 			public const int mr_art = 2131492915;
@@ -5452,8 +5948,8 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F0C0048
-			public const int none = 2131492936;
+			// aapt resource value: 0x7F020022
+			public const int none = 2130837538;
 			
 			// aapt resource value: 0x7F0C0010
 			public const int normal = 2131492880;
@@ -5467,6 +5963,9 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0C0013
 			public const int notification_main_column_container = 2131492883;
 			
+			// aapt resource value: 0x7F020044
+			public const int outside = 2130837572;
+			
 			// aapt resource value: 0x7F0C004D
 			public const int parallax = 2131492941;
 			
@@ -5479,6 +5978,9 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
 			
+			// aapt resource value: 0x7F020014
+			public const int print = 2130837524;
+			
 			// aapt resource value: 0x7F0C0051
 			public const int progress_circular = 2131492945;
 			
@@ -5488,6 +5990,9 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0C0053
 			public const int radio = 2131492947;
 			
+			// aapt resource value: 0x7F020015
+			public const int rectangle = 2130837525;
+			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
 			
@@ -5496,6 +6001,9 @@ namespace PrintingApp.Droid
 			
 			// aapt resource value: 0x7F0C0015
 			public const int right_side = 2131492885;
+			
+			// aapt resource value: 0x7F020016
+			public const int rollingBall = 2130837526;
 			
 			// aapt resource value: 0x7F0C0057
 			public const int save_image_matrix = 2131492951;
@@ -5554,17 +6062,32 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0C0069
 			public const int select_dialog_listview = 2131492969;
 			
-			// aapt resource value: 0x7F020183
-			public const int shellcontent.appbar = 2130837891;
+			// aapt resource value: 0x7F020220
+			public const int shellcontent.appbar = 2130838048;
 			
-			// aapt resource value: 0x7F020185
-			public const int shellcontent.scrollview = 2130837893;
+			// aapt resource value: 0x7F020222
+			public const int shellcontent.scrollview = 2130838050;
 			
-			// aapt resource value: 0x7F020184
-			public const int shellcontent.toolbar = 2130837892;
+			// aapt resource value: 0x7F020221
+			public const int shellcontent.toolbar = 2130838049;
 			
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
+			
+			// aapt resource value: 0x7F020034
+			public const int signatureLabel = 2130837556;
+			
+			// aapt resource value: 0x7F020036
+			public const int signaturePadContainer = 2130837558;
+			
+			// aapt resource value: 0x7F020031
+			public const int signatureviewlayout = 2130837553;
+			
+			// aapt resource value: 0x7F020017
+			public const int singleCircle = 2130837527;
+			
+			// aapt resource value: 0x7F020018
+			public const int slicedCircle = 2130837528;
 			
 			// aapt resource value: 0x7F020003
 			public const int sliding_tabs = 2130837507;
@@ -5647,8 +6170,14 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F020004
 			public const int toolbar = 2130837508;
 			
-			// aapt resource value: 0x7F0C0084
-			public const int top = 2131492996;
+			// aapt resource value: 0x7F020020
+			public const int top = 2130837536;
+			
+			// aapt resource value: 0x7F020032
+			public const int topBar = 2130837554;
+			
+			// aapt resource value: 0x7F020041
+			public const int topLeft = 2130837569;
 			
 			// aapt resource value: 0x7F0C0085
 			public const int topPanel = 2131492997;
@@ -5671,11 +6200,17 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
 			
+			// aapt resource value: 0x7F020024
+			public const int @unchecked = 2130837540;
+			
 			// aapt resource value: 0x7F0C008C
 			public const int uniform = 2131493004;
 			
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
+			
+			// aapt resource value: 0x7F020040
+			public const int vertical = 2130837568;
 			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
@@ -5688,6 +6223,9 @@ namespace PrintingApp.Droid
 			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
+			
+			// aapt resource value: 0x7F020019
+			public const int zoomingTarget = 2130837529;
 			
 			static Id()
 			{
@@ -5851,8 +6389,8 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
-			// aapt resource value: 0x7F030071
-			public const int BottomTabLayout = 2130903153;
+			// aapt resource value: 0x7F030075
+			public const int BottomTabLayout = 2130903157;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
@@ -5896,8 +6434,17 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
-			// aapt resource value: 0x7F030072
-			public const int FlyoutContent = 2130903154;
+			// aapt resource value: 0x7F030005
+			public const int dialogListViewRow = 2130903045;
+			
+			// aapt resource value: 0x7F030076
+			public const int FlyoutContent = 2130903158;
+			
+			// aapt resource value: 0x7F030006
+			public const int formfieldButtonLayout = 2130903046;
+			
+			// aapt resource value: 0x7F030007
+			public const int listViewRow = 2130903047;
 			
 			// aapt resource value: 0x7F030002
 			public const int Main = 2130903042;
@@ -5965,8 +6512,8 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
-			// aapt resource value: 0x7F030073
-			public const int RootLayout = 2130903155;
+			// aapt resource value: 0x7F030077
+			public const int RootLayout = 2130903159;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
@@ -5977,8 +6524,11 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0F003A
 			public const int select_dialog_singlechoice_material = 2131689530;
 			
-			// aapt resource value: 0x7F030074
-			public const int ShellContent = 2130903156;
+			// aapt resource value: 0x7F030078
+			public const int ShellContent = 2130903160;
+			
+			// aapt resource value: 0x7F030008
+			public const int signaturepadlayout = 2130903048;
 			
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
@@ -5992,11 +6542,11 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
 			
-			// aapt resource value: 0x7F030075
-			public const int zxingscanneractivitylayout = 2130903157;
+			// aapt resource value: 0x7F030079
+			public const int zxingscanneractivitylayout = 2130903161;
 			
-			// aapt resource value: 0x7F030076
-			public const int zxingscannerfragmentlayout = 2130903158;
+			// aapt resource value: 0x7F030080
+			public const int zxingscannerfragmentlayout = 2130903168;
 			
 			static Layout()
 			{
@@ -6129,8 +6679,8 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x7F050002
 			public const int hello = 2131034114;
 			
-			// aapt resource value: 0x7F050064
-			public const int library_name = 2131034212;
+			// aapt resource value: 0x7F050004
+			public const int library_name = 2131034116;
 			
 			// aapt resource value: 0x7F15001E
 			public const int mr_button_content_description = 2132082718;
@@ -6212,6 +6762,237 @@ namespace PrintingApp.Droid
 			
 			// aapt resource value: 0x7F150026
 			public const int search_menu_title = 2132082726;
+			
+			// aapt resource value: 0x7F050012
+			public const int SfPdfViewerCancel = 2131034130;
+			
+			// aapt resource value: 0x7F050005
+			public const int SfPdfViewerCopy = 2131034117;
+			
+			// aapt resource value: 0x7F050006
+			public const int SfPdfViewerHighlight = 2131034118;
+			
+			// aapt resource value: 0x7F050010
+			public const int SfPdfViewerHyperlinkMessage = 2131034128;
+			
+			// aapt resource value: 0x7F050009
+			public const int SfPdfViewerHyperlinkMessageTitle = 2131034121;
+			
+			// aapt resource value: 0x7F050011
+			public const int SfPdfViewerHyperlinkOpen = 2131034129;
+			
+			// aapt resource value: 0x7F050008
+			public const int SfPdfViewerStrikethrough = 2131034120;
+			
+			// aapt resource value: 0x7F050007
+			public const int SfPdfViewerUnderline = 2131034119;
+			
+			// aapt resource value: 0x7F050019
+			public const int sfpdfviewer_annotationsbackbutton = 2131034137;
+			
+			// aapt resource value: 0x7F050028
+			public const int sfpdfviewer_annotationsbutton = 2131034152;
+			
+			// aapt resource value: 0x7F050053
+			public const int sfpdfviewer_arrowbackbutton = 2131034195;
+			
+			// aapt resource value: 0x7F050050
+			public const int sfpdfviewer_arrowbutton = 2131034192;
+			
+			// aapt resource value: 0x7F050078
+			public const int sfpdfviewer_backbutton = 2131034232;
+			
+			// aapt resource value: 0x7F050035
+			public const int sfpdfviewer_blackcolorbutton = 2131034165;
+			
+			// aapt resource value: 0x7F050027
+			public const int sfpdfviewer_bookmarksbackbutton = 2131034151;
+			
+			// aapt resource value: 0x7F050065
+			public const int sfpdfviewer_bookmarksbutton = 2131034213;
+			
+			// aapt resource value: 0x7F050079
+			public const int sfpdfviewer_bookmarksclosebutton = 2131034233;
+			
+			// aapt resource value: 0x7F050074
+			public const int sfpdfviewer_cancel = 2131034228;
+			
+			// aapt resource value: 0x7F050042
+			public const int sfpdfviewer_cancelsearchbutton = 2131034178;
+			
+			// aapt resource value: 0x7F050045
+			public const int sfpdfviewer_clearsearchbutton = 2131034181;
+			
+			// aapt resource value: 0x7F050024
+			public const int sfpdfviewer_colorbutton = 2131034148;
+			
+			// aapt resource value: 0x7F050030
+			public const int sfpdfviewer_cyancolorbutton = 2131034160;
+			
+			// aapt resource value: 0x7F050036
+			public const int sfpdfviewer_deletebutton = 2131034166;
+			
+			// aapt resource value: 0x7F050068
+			public const int sfpdfviewer_done = 2131034216;
+			
+			// aapt resource value: 0x7F050055
+			public const int sfpdfviewer_ellipsebackbutton = 2131034197;
+			
+			// aapt resource value: 0x7F050047
+			public const int sfpdfviewer_ellipsebutton = 2131034183;
+			
+			// aapt resource value: 0x7F050020
+			public const int sfpdfviewer_fontsizebutton = 2131034144;
+			
+			// aapt resource value: 0x7F050017
+			public const int sfpdfviewer_freetextbutton = 2131034135;
+			
+			// aapt resource value: 0x7F050032
+			public const int sfpdfviewer_greencolorbutton = 2131034162;
+			
+			// aapt resource value: 0x7F050056
+			public const int sfpdfviewer_highlightbutton = 2131034198;
+			
+			// aapt resource value: 0x7F050060
+			public const int sfpdfviewer_highlighttextbackbutton = 2131034208;
+			
+			// aapt resource value: 0x7F050013
+			public const int sfpdfviewer_hinttext = 2131034131;
+			
+			// aapt resource value: 0x7F050022
+			public const int sfpdfviewer_inkbackbutton = 2131034146;
+			
+			// aapt resource value: 0x7F050016
+			public const int sfpdfviewer_inkbutton = 2131034134;
+			
+			// aapt resource value: 0x7F050054
+			public const int sfpdfviewer_linebackbutton = 2131034196;
+			
+			// aapt resource value: 0x7F050049
+			public const int sfpdfviewer_linebutton = 2131034185;
+			
+			// aapt resource value: 0x7F050034
+			public const int sfpdfviewer_magentacolorbutton = 2131034164;
+			
+			// aapt resource value: 0x7F050064
+			public const int sfpdfviewer_moreoptionsbutton = 2131034212;
+			
+			// aapt resource value: 0x7F050025
+			public const int sfpdfviewer_nextlevelbookmarksbutton = 2131034149;
+			
+			// aapt resource value: 0x7F050029
+			public const int sfpdfviewer_opacitybutton = 2131034153;
+			
+			// aapt resource value: 0x7F050081
+			public const int sfpdfviewer_pagedownbutton = 2131034241;
+			
+			// aapt resource value: 0x7F050080
+			public const int sfpdfviewer_pageupbutton = 2131034240;
+			
+			// aapt resource value: 0x7F050048
+			public const int sfpdfviewer_polygonbutton = 2131034184;
+			
+			// aapt resource value: 0x7F050026
+			public const int sfpdfviewer_previouslevelbookmarksbutton = 2131034150;
+			
+			// aapt resource value: 0x7F050052
+			public const int sfpdfviewer_rectanglebackbutton = 2131034194;
+			
+			// aapt resource value: 0x7F050046
+			public const int sfpdfviewer_rectanglebutton = 2131034182;
+			
+			// aapt resource value: 0x7F050031
+			public const int sfpdfviewer_redcolorbutton = 2131034161;
+			
+			// aapt resource value: 0x7F050038
+			public const int sfpdfviewer_redobutton = 2131034168;
+			
+			// aapt resource value: 0x7F050066
+			public const int sfpdfviewer_redoinkbutton = 2131034214;
+			
+			// aapt resource value: 0x7F050039
+			public const int sfpdfviewer_savebutton = 2131034169;
+			
+			// aapt resource value: 0x7F050043
+			public const int sfpdfviewer_searchbackbutton = 2131034179;
+			
+			// aapt resource value: 0x7F050044
+			public const int sfpdfviewer_searchbarplaceholdertext = 2131034180;
+			
+			// aapt resource value: 0x7F050063
+			public const int sfpdfviewer_searchbutton = 2131034211;
+			
+			// aapt resource value: 0x7F050040
+			public const int sfpdfviewer_searchnextbutton = 2131034176;
+			
+			// aapt resource value: 0x7F050041
+			public const int sfpdfviewer_searchpreviousbutton = 2131034177;
+			
+			// aapt resource value: 0x7F050051
+			public const int sfpdfviewer_shapesbackbutton = 2131034193;
+			
+			// aapt resource value: 0x7F050018
+			public const int sfpdfviewer_shapesbutton = 2131034136;
+			
+			// aapt resource value: 0x7F050014
+			public const int sfpdfviewer_signaturebutton = 2131034132;
+			
+			// aapt resource value: 0x7F050076
+			public const int sfpdfviewer_signaturepad_cancel = 2131034230;
+			
+			// aapt resource value: 0x7F050077
+			public const int sfpdfviewer_signaturepad_clear = 2131034231;
+			
+			// aapt resource value: 0x7F050075
+			public const int sfpdfviewer_signaturepad_done = 2131034229;
+			
+			// aapt resource value: 0x7F050059
+			public const int sfpdfviewer_strikethroughbutton = 2131034201;
+			
+			// aapt resource value: 0x7F050062
+			public const int sfpdfviewer_strikethroughtextbackbutton = 2131034210;
+			
+			// aapt resource value: 0x7F050021
+			public const int sfpdfviewer_textbackbutton = 2131034145;
+			
+			// aapt resource value: 0x7F050058
+			public const int sfpdfviewer_textmarkupsbackbutton = 2131034200;
+			
+			// aapt resource value: 0x7F050015
+			public const int sfpdfviewer_textmarkupsbutton = 2131034133;
+			
+			// aapt resource value: 0x7F050023
+			public const int sfpdfviewer_thicknessbutton = 2131034147;
+			
+			// aapt resource value: 0x7F050071
+			public const int sfpdfviewer_thicknessfivebutton = 2131034225;
+			
+			// aapt resource value: 0x7F050073
+			public const int sfpdfviewer_thicknessninebutton = 2131034227;
+			
+			// aapt resource value: 0x7F050069
+			public const int sfpdfviewer_thicknessonebutton = 2131034217;
+			
+			// aapt resource value: 0x7F050072
+			public const int sfpdfviewer_thicknesssevenbutton = 2131034226;
+			
+			// aapt resource value: 0x7F050070
+			public const int sfpdfviewer_thicknesthreebutton = 2131034224;
+			
+			// aapt resource value: 0x7F050057
+			public const int sfpdfviewer_underlinebutton = 2131034199;
+			
+			// aapt resource value: 0x7F050061
+			public const int sfpdfviewer_underlinetextbackbutton = 2131034209;
+			
+			// aapt resource value: 0x7F050037
+			public const int sfpdfviewer_undobutton = 2131034167;
+			
+			// aapt resource value: 0x7F050067
+			public const int sfpdfviewer_undoinkbutton = 2131034215;
+			
+			// aapt resource value: 0x7F050033
+			public const int sfpdfviewer_yellowcolorbutton = 2131034163;
 			
 			// aapt resource value: 0x7F150001
 			public const int status_bar_notification_info_overflow = 2132082689;
@@ -7485,11 +8266,11 @@ namespace PrintingApp.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F080047
-			public const int ActionBarLayout_android_layout_gravity = 2131230791;
+			// aapt resource value: 0x7F080073
+			public const int ActionBarLayout_android_layout_gravity = 2131230835;
 			
-			// aapt resource value: 0x7F080017
-			public const int ActionBar_background = 2131230743;
+			// aapt resource value: 0x7F080043
+			public const int ActionBar_background = 2131230787;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -7578,8 +8359,8 @@ namespace PrintingApp.Droid
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F080049
-			public const int ActionMenuItemView_android_minWidth = 2131230793;
+			// aapt resource value: 0x7F080075
+			public const int ActionMenuItemView_android_minWidth = 2131230837;
 			
 			public static int[] ActionMode = new int[] {
 					2130968626,
@@ -7589,8 +8370,8 @@ namespace PrintingApp.Droid
 					2130968847,
 					2130968901};
 			
-			// aapt resource value: 0x7F080051
-			public const int ActionMode_background = 2131230801;
+			// aapt resource value: 0x7F080077
+			public const int ActionMode_background = 2131230839;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -7611,8 +8392,8 @@ namespace PrintingApp.Droid
 					2130968704,
 					2130968746};
 			
-			// aapt resource value: 0x7F080058
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131230808;
+			// aapt resource value: 0x7F080084
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131230852;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -7626,8 +8407,8 @@ namespace PrintingApp.Droid
 					2130968828,
 					2130968829};
 			
-			// aapt resource value: 0x7F080061
-			public const int AlertDialog_android_layout = 2131230817;
+			// aapt resource value: 0x7F080087
+			public const int AlertDialog_android_layout = 2131230855;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonPanelSideLayout = 1;
@@ -7658,14 +8439,14 @@ namespace PrintingApp.Droid
 					2130968838,
 					2130968839};
 			
-			// aapt resource value: 0x7F080075
-			public const int AppBarLayoutStates_state_collapsed = 2131230837;
+			// aapt resource value: 0x7F080101
+			public const int AppBarLayoutStates_state_collapsed = 2131230977;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x7F080069
-			public const int AppBarLayout_android_background = 2131230825;
+			// aapt resource value: 0x7F080095
+			public const int AppBarLayout_android_background = 2131230869;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -7683,8 +8464,8 @@ namespace PrintingApp.Droid
 					2130968765,
 					2130968766};
 			
-			// aapt resource value: 0x7F080078
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131230840;
+			// aapt resource value: 0x7F080104
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131230980;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -7695,8 +8476,8 @@ namespace PrintingApp.Droid
 					2130968889,
 					2130968890};
 			
-			// aapt resource value: 0x7F080081
-			public const int AppCompatImageView_android_src = 2131230849;
+			// aapt resource value: 0x7F080107
+			public const int AppCompatImageView_android_src = 2131230983;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -7713,8 +8494,8 @@ namespace PrintingApp.Droid
 					2130968887,
 					2130968888};
 			
-			// aapt resource value: 0x7F080086
-			public const int AppCompatSeekBar_android_thumb = 2131230854;
+			// aapt resource value: 0x7F080112
+			public const int AppCompatSeekBar_android_thumb = 2131230994;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -7734,8 +8515,8 @@ namespace PrintingApp.Droid
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F080091
-			public const int AppCompatTextHelper_android_drawableBottom = 2131230865;
+			// aapt resource value: 0x7F080117
+			public const int AppCompatTextHelper_android_drawableBottom = 2131230999;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -7765,8 +8546,8 @@ namespace PrintingApp.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F080099
-			public const int AppCompatTextView_android_textAppearance = 2131230873;
+			// aapt resource value: 0x7F080125
+			public const int AppCompatTextView_android_textAppearance = 2131231013;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -7910,8 +8691,8 @@ namespace PrintingApp.Droid
 					2130968921,
 					2130968922};
 			
-			// aapt resource value: 0x7F080108
-			public const int AppCompatTheme_actionBarDivider = 2131230984;
+			// aapt resource value: 0x7F080134
+			public const int AppCompatTheme_actionBarDivider = 2131231028;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -8274,8 +9055,8 @@ namespace PrintingApp.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F080228
-			public const int BottomNavigationView_elevation = 2131231272;
+			// aapt resource value: 0x7F080254
+			public const int BottomNavigationView_elevation = 2131231316;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -8294,8 +9075,8 @@ namespace PrintingApp.Droid
 					2130968635,
 					2130968636};
 			
-			// aapt resource value: 0x7F080234
-			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131231284;
+			// aapt resource value: 0x7F080260
+			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131231328;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 1;
@@ -8306,8 +9087,8 @@ namespace PrintingApp.Droid
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F080238
-			public const int ButtonBarLayout_allowStacking = 2131231288;
+			// aapt resource value: 0x7F080264
+			public const int ButtonBarLayout_allowStacking = 2131231332;
 			
 			public static int[] CardView = new int[] {
 					16843072,
@@ -8324,8 +9105,8 @@ namespace PrintingApp.Droid
 					2130968586,
 					2130968587};
 			
-			// aapt resource value: 0x7F080541
-			public const int CardView_android_minHeight = 2131232065;
+			// aapt resource value: 0x7F080567
+			public const int CardView_android_minHeight = 2131232103;
 			
 			// aapt resource value: 0x1
 			public const int CardView_android_minWidth = 1;
@@ -8381,8 +9162,8 @@ namespace PrintingApp.Droid
 					2130968892,
 					2130968902};
 			
-			// aapt resource value: 0x7F080240
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131231296;
+			// aapt resource value: 0x7F080266
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131231334;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -8415,8 +9196,8 @@ namespace PrintingApp.Droid
 					2130968760,
 					2130968761};
 			
-			// aapt resource value: 0x7F080257
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131231319;
+			// aapt resource value: 0x7F080283
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131231363;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -8444,8 +9225,8 @@ namespace PrintingApp.Droid
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F080260
-			public const int ColorStateListItem_alpha = 2131231328;
+			// aapt resource value: 0x7F080286
+			public const int ColorStateListItem_alpha = 2131231366;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -8458,8 +9239,8 @@ namespace PrintingApp.Droid
 					2130968650,
 					2130968651};
 			
-			// aapt resource value: 0x7F080264
-			public const int CompoundButton_android_button = 2131231332;
+			// aapt resource value: 0x7F080290
+			public const int CompoundButton_android_button = 2131231376;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -8471,8 +9252,8 @@ namespace PrintingApp.Droid
 					2130968754,
 					2130968840};
 			
-			// aapt resource value: 0x7F080268
-			public const int CoordinatorLayout_keylines = 2131231336;
+			// aapt resource value: 0x7F080294
+			public const int CoordinatorLayout_keylines = 2131231380;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -8483,8 +9264,8 @@ namespace PrintingApp.Droid
 					2130968763,
 					2130968764};
 			
-			// aapt resource value: 0x7F080271
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131231345;
+			// aapt resource value: 0x7F080297
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131231383;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -8512,8 +9293,8 @@ namespace PrintingApp.Droid
 					2130968640,
 					2130968879};
 			
-			// aapt resource value: 0x7F080279
-			public const int DesignTheme_bottomSheetDialogTheme = 2131231353;
+			// aapt resource value: 0x7F080305
+			public const int DesignTheme_bottomSheetDialogTheme = 2131231493;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -8531,8 +9312,8 @@ namespace PrintingApp.Droid
 					2130968831,
 					2130968882};
 			
-			// aapt resource value: 0x7F080283
-			public const int DrawerArrowToggle_arrowHeadLength = 2131231363;
+			// aapt resource value: 0x7F080309
+			public const int DrawerArrowToggle_arrowHeadLength = 2131231497;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -8565,8 +9346,8 @@ namespace PrintingApp.Droid
 					2130968816,
 					2130968911};
 			
-			// aapt resource value: 0x7F080292
-			public const int FloatingActionButton_backgroundTint = 2131231378;
+			// aapt resource value: 0x7F080318
+			public const int FloatingActionButton_backgroundTint = 2131231512;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -8574,8 +9355,8 @@ namespace PrintingApp.Droid
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F080301
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131231489;
+			// aapt resource value: 0x7F080327
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131231527;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -8611,8 +9392,8 @@ namespace PrintingApp.Droid
 					2130968584,
 					2130968585};
 			
-			// aapt resource value: 0x7F080010
-			public const int FontFamilyFont_android_font = 2131230736;
+			// aapt resource value: 0x7F080036
+			public const int FontFamilyFont_android_font = 2131230774;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -8629,8 +9410,8 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x5
 			public const int FontFamilyFont_fontWeight = 5;
 			
-			// aapt resource value: 0x7F080003
-			public const int FontFamily_fontProviderAuthority = 2131230723;
+			// aapt resource value: 0x7F080029
+			public const int FontFamily_fontProviderAuthority = 2131230761;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -8652,8 +9433,8 @@ namespace PrintingApp.Droid
 					16843264,
 					2130968729};
 			
-			// aapt resource value: 0x7F080303
-			public const int ForegroundLinearLayout_android_foreground = 2131231491;
+			// aapt resource value: 0x7F080329
+			public const int ForegroundLinearLayout_android_foreground = 2131231529;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -8672,8 +9453,8 @@ namespace PrintingApp.Droid
 					2130968782,
 					2130968826};
 			
-			// aapt resource value: 0x7F080307
-			public const int LinearLayoutCompat_android_baselineAligned = 2131231495;
+			// aapt resource value: 0x7F080333
+			public const int LinearLayoutCompat_android_baselineAligned = 2131231539;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -8699,8 +9480,8 @@ namespace PrintingApp.Droid
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F080317
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131231511;
+			// aapt resource value: 0x7F080343
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131231555;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -8721,8 +9502,8 @@ namespace PrintingApp.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F080322
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131231522;
+			// aapt resource value: 0x7F080348
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131231560;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -8733,8 +9514,8 @@ namespace PrintingApp.Droid
 					2130968688,
 					2130968732};
 			
-			// aapt resource value: 0x7F080555
-			public const int MediaRouteButton_android_minHeight = 2131232085;
+			// aapt resource value: 0x7F080581
+			public const int MediaRouteButton_android_minHeight = 2131232129;
 			
 			// aapt resource value: 0x1
 			public const int MediaRouteButton_android_minWidth = 1;
@@ -8753,8 +9534,8 @@ namespace PrintingApp.Droid
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F080325
-			public const int MenuGroup_android_checkableBehavior = 2131231525;
+			// aapt resource value: 0x7F080351
+			public const int MenuGroup_android_checkableBehavior = 2131231569;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -8796,8 +9577,8 @@ namespace PrintingApp.Droid
 					2130968825,
 					2130968907};
 			
-			// aapt resource value: 0x7F080332
-			public const int MenuItem_actionLayout = 2131231538;
+			// aapt resource value: 0x7F080358
+			public const int MenuItem_actionLayout = 2131231576;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -8876,8 +9657,8 @@ namespace PrintingApp.Droid
 					2130968805,
 					2130968842};
 			
-			// aapt resource value: 0x7F080356
-			public const int MenuView_android_headerBackground = 2131231574;
+			// aapt resource value: 0x7F080382
+			public const int MenuView_android_headerBackground = 2131231618;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -8915,8 +9696,8 @@ namespace PrintingApp.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F080366
-			public const int NavigationView_android_background = 2131231590;
+			// aapt resource value: 0x7F080392
+			public const int NavigationView_android_background = 2131231634;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -8953,11 +9734,11 @@ namespace PrintingApp.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968837};
 			
-			// aapt resource value: 0x7F080381
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131231617;
+			// aapt resource value: 0x7F080407
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131231751;
 			
-			// aapt resource value: 0x7F080377
-			public const int PopupWindow_android_popupAnimationStyle = 2131231607;
+			// aapt resource value: 0x7F080403
+			public const int PopupWindow_android_popupAnimationStyle = 2131231747;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -8969,8 +9750,8 @@ namespace PrintingApp.Droid
 					2130968790,
 					2130968793};
 			
-			// aapt resource value: 0x7F080383
-			public const int RecycleListView_paddingBottomNoButtons = 2131231619;
+			// aapt resource value: 0x7F080409
+			public const int RecycleListView_paddingBottomNoButtons = 2131231753;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -8988,8 +9769,8 @@ namespace PrintingApp.Droid
 					2130968830,
 					2130968836};
 			
-			// aapt resource value: 0x7F080386
-			public const int RecyclerView_android_descendantFocusability = 2131231622;
+			// aapt resource value: 0x7F080412
+			public const int RecyclerView_android_descendantFocusability = 2131231762;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -9024,14 +9805,14 @@ namespace PrintingApp.Droid
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968747};
 			
-			// aapt resource value: 0x7F080398
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131231640;
+			// aapt resource value: 0x7F080424
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131231780;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968634};
 			
-			// aapt resource value: 0x7F080400
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131231744;
+			// aapt resource value: 0x7F080426
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131231782;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -9052,8 +9833,8 @@ namespace PrintingApp.Droid
 					2130968848,
 					2130968912};
 			
-			// aapt resource value: 0x7F080402
-			public const int SearchView_android_focusable = 2131231746;
+			// aapt resource value: 0x7F080428
+			public const int SearchView_android_focusable = 2131231784;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -9103,13 +9884,113 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x16
 			public const int SearchView_voiceIcon = 22;
 			
+			public static int[] SfBusyIndicator = new int[] {
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0};
+			
+			// aapt resource value: 0x7F080002
+			public const int SfBusyIndicator_busyIndicatorAnimationTypes = 2131230722;
+			
+			// aapt resource value: 0x7F080010
+			public const int SfBusyIndicator_busyIndicatorIsBusy = 2131230736;
+			
+			// aapt resource value: 0x7F080008
+			public const int SfBusyIndicator_busyIndicatorSecondaryColor = 2131230728;
+			
+			// aapt resource value: 0x7F080003
+			public const int SfBusyIndicator_busyIndicatorTextColor = 2131230723;
+			
+			// aapt resource value: 0x7F080007
+			public const int SfBusyIndicator_busyIndicatorTextSize = 2131230727;
+			
+			// aapt resource value: 0x7F080006
+			public const int SfBusyIndicator_busyIndicatorTitle = 2131230726;
+			
+			// aapt resource value: 0x7F080009
+			public const int SfBusyIndicator_busyIndicatorTitlePlacement = 2131230729;
+			
+			// aapt resource value: 0x7F080004
+			public const int SfBusyIndicator_busyIndicatorViewBoxHeight = 2131230724;
+			
+			// aapt resource value: 0x7F080005
+			public const int SfBusyIndicator_busyIndicatorViewBoxWidth = 2131230725;
+			
+			public static int[] SfRangeSlider = new int[] {
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0};
+			
+			// aapt resource value: 0x7F080019
+			public const int SfRangeSlider_rangeSliderDirectionReversed = 2131230745;
+			
+			// aapt resource value: 0x7F080025
+			public const int SfRangeSlider_rangeSliderEndValue = 2131230757;
+			
+			// aapt resource value: 0x7F080012
+			public const int SfRangeSlider_rangeSliderKnobColor = 2131230738;
+			
+			// aapt resource value: 0x7F080023
+			public const int SfRangeSlider_rangeSliderMaximum = 2131230755;
+			
+			// aapt resource value: 0x7F080022
+			public const int SfRangeSlider_rangeSliderMinimum = 2131230754;
+			
+			// aapt resource value: 0x7F080018
+			public const int SfRangeSlider_rangeSliderOrientation = 2131230744;
+			
+			// aapt resource value: 0x7F080016
+			public const int SfRangeSlider_rangeSliderShowRange = 2131230742;
+			
+			// aapt resource value: 0x7F080015
+			public const int SfRangeSlider_rangeSliderShowValueLabel = 2131230741;
+			
+			// aapt resource value: 0x7F080024
+			public const int SfRangeSlider_rangeSliderStartValue = 2131230756;
+			
+			// aapt resource value: 0x7F080026
+			public const int SfRangeSlider_rangeSliderThumbSize = 2131230758;
+			
+			// aapt resource value: 0x7F080020
+			public const int SfRangeSlider_rangeSliderTickPlacement = 2131230752;
+			
+			// aapt resource value: 0x7F080013
+			public const int SfRangeSlider_rangeSliderTrackColor = 2131230739;
+			
+			// aapt resource value: 0x7F080014
+			public const int SfRangeSlider_rangeSliderTrackSelectionColor = 2131230740;
+			
+			// aapt resource value: 0x7F080017
+			public const int SfRangeSlider_rangeSliderValue = 2131230743;
+			
+			// aapt resource value: 0x7F080021
+			public const int SfRangeSlider_rangeSliderValuePlacement = 2131230753;
+			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130968701,
 					2130968780};
 			
-			// aapt resource value: 0x7F080420
-			public const int SnackbarLayout_android_maxWidth = 2131231776;
+			// aapt resource value: 0x7F080446
+			public const int SnackbarLayout_android_maxWidth = 2131231814;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -9124,8 +10005,8 @@ namespace PrintingApp.Droid
 					16843131,
 					2130968803};
 			
-			// aapt resource value: 0x7F080424
-			public const int Spinner_android_dropDownWidth = 2131231780;
+			// aapt resource value: 0x7F080450
+			public const int Spinner_android_dropDownWidth = 2131231824;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -9155,8 +10036,8 @@ namespace PrintingApp.Droid
 					2130968909,
 					2130968910};
 			
-			// aapt resource value: 0x7F080430
-			public const int SwitchCompat_android_textOff = 2131231792;
+			// aapt resource value: 0x7F080456
+			public const int SwitchCompat_android_textOff = 2131231830;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -9202,8 +10083,8 @@ namespace PrintingApp.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F080445
-			public const int TabItem_android_icon = 2131231813;
+			// aapt resource value: 0x7F080471
+			public const int TabItem_android_icon = 2131231857;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -9229,8 +10110,8 @@ namespace PrintingApp.Droid
 					2130968867,
 					2130968868};
 			
-			// aapt resource value: 0x7F080449
-			public const int TabLayout_tabBackground = 2131231817;
+			// aapt resource value: 0x7F080475
+			public const int TabLayout_tabBackground = 2131231861;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -9292,8 +10173,8 @@ namespace PrintingApp.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F080466
-			public const int TextAppearance_android_fontFamily = 2131231846;
+			// aapt resource value: 0x7F080492
+			public const int TextAppearance_android_fontFamily = 2131231890;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -9349,8 +10230,8 @@ namespace PrintingApp.Droid
 					2130968800,
 					2130968801};
 			
-			// aapt resource value: 0x7F080480
-			public const int TextInputLayout_android_hint = 2131231872;
+			// aapt resource value: 0x7F080506
+			public const int TextInputLayout_android_hint = 2131232006;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -9428,8 +10309,8 @@ namespace PrintingApp.Droid
 					2130968899,
 					2130968900};
 			
-			// aapt resource value: 0x7F080497
-			public const int Toolbar_android_gravity = 2131231895;
+			// aapt resource value: 0x7F080523
+			public const int Toolbar_android_gravity = 2131232035;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -9527,8 +10408,8 @@ namespace PrintingApp.Droid
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F080533
-			public const int ViewBackgroundHelper_android_background = 2131232051;
+			// aapt resource value: 0x7F080559
+			public const int ViewBackgroundHelper_android_background = 2131232089;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -9541,8 +10422,8 @@ namespace PrintingApp.Droid
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F080537
-			public const int ViewStubCompat_android_id = 2131232055;
+			// aapt resource value: 0x7F080563
+			public const int ViewStubCompat_android_id = 2131232099;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -9550,8 +10431,8 @@ namespace PrintingApp.Droid
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F080527
-			public const int View_android_focusable = 2131232039;
+			// aapt resource value: 0x7F080553
+			public const int View_android_focusable = 2131232083;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;

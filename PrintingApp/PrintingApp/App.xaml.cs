@@ -53,7 +53,8 @@ namespace PrintingApp
             containerRegistry.RegisterForNavigation<RegistrationPage, RegistrationPageViewModel>();
             containerRegistry.RegisterForNavigation<DashBoardScreen, DashBoardScreenViewModel>();
             containerRegistry.RegisterForNavigation<TicketPrintScreen, TicketPrintScreenViewModel>();
-          
+
+            containerRegistry.RegisterForNavigation<CreatePDF, CreatePDFViewModel>();
         }
     }
 }

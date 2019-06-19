@@ -38,8 +38,9 @@
                                 </Image.GestureRecognizers>
                             </Image>
                         <Label Text="Registration Form" FontSize="20" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"/>
+                        <!--<Label Text="" x:Name="txtKey" FontSize="Small" HorizontalOptions="Center" TextColor="Transparent"/>-->
 
-                        </StackLayout>
+                    </StackLayout>
                         <StackLayout Grid.Row="1" HorizontalOptions="FillAndExpand">
                             <!--<Grid BackgroundColor="White" HeightRequest="50" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="0" Margin="0,0,0,0" >
                                 <Grid.ColumnDefinitions>
@@ -184,6 +185,7 @@
                         </Label>
 
                     <Image x:Name="image" HeightRequest="120" WidthRequest="150"/>
+                        <Button Text="upload" TextColor="Blue" Clicked="Button_Clicked_1"/>
                     </StackLayout>
                     <Button x:Name="btnAdd" Grid.Row="4" Text="SAVE" Command="{Binding SaveCommand}" HeightRequest="50" BackgroundColor="#0762AD" WidthRequest="200" TextColor="White" CornerRadius="20" HorizontalOptions="FillAndExpand" VerticalOptions="End" Margin="0,10,0,0"/>
 
@@ -411,6 +413,30 @@
 
                 <!--<Image x:Name="image" HeightRequest="150" WidthRequest="150"/>-->
                 <Button Text="Scan" Grid.Row="1" HeightRequest="40" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Button_Clicked" />
+
+                <ListView x:Name="lstPersons" ItemsSource="{Binding SearchId}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="5*"/>
+                                        <ColumnDefinition Width="5*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Text="{Binding Email}" Grid.Column="0"  HorizontalOptions="CenterAndExpand"/>
+                                    <Label Text="{Binding Name}" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"/>
+                                    <Image Source="{Binding Imageimg}"/>
+
+                                </Grid>
+                                </StackLayout>
+                            </ViewCell>
+                            <!--<TextCell Text="{Binding Name}" Detail="{Binding PersonId}"></TextCell>-->
+
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
                 <Label x:Name="qrLabel" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
 
                 <zxing:ZXingBarcodeImageView x:Name="BarcodeImageView" 
