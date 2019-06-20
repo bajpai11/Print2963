@@ -9,7 +9,7 @@ namespace PrintingApp.Models
     {
         public int PersonId { get; set; }
         public string Name { get; set; }
-        //public string Email { get; set; }
+        public string Email { get; set; }
         //public string Mobileno { get; set; }
         //public string CompanyName { get; set; }
         //public string DesignationName { get; set; }

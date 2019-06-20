@@ -55,7 +55,7 @@
         </StackLayout>
         <StackLayout Grid.Row="3" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" WidthRequest="200" Orientation="Horizontal" Spacing="10" Margin="10,20,0,0">
                 <zxing:ZXingBarcodeImageView x:Name="BarcodeImageView"
-                            BarcodeValue="prash" IsVisible="False"
+                            BarcodeValue="pb" IsVisible="False"
                             BarcodeFormat="CODE_128"
                             HorizontalOptions="FillAndExpand"
                             VerticalOptions="FillAndExpand">

@@ -24,6 +24,7 @@ namespace PrintingApp.Droid
             Plugin.CurrentActivity.CrossCurrentActivity.Current.Init(this, bundle);
             base.OnCreate(bundle);
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            ZXing.Net.Mobile.Forms.Android.Platform.Init();
             LoadApplication(new App(new AndroidInitializer()));
 
             if (ActivityCompat.ShouldShowRequestPermissionRationale(this, Manifest.Permission.WriteExternalStorage))
@@ -56,7 +57,7 @@ namespace PrintingApp.Droid
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-
+            global::ZXing.Net.Mobile.Android.PermissionsHandler.OnRequestPermissionsResult(requestCode, permissions, grantResults);
             if (requestCode == REQUEST_STORAGE)
             {
                 // Received permission result for camera permission.

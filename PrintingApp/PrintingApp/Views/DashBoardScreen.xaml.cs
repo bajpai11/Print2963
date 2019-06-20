@@ -41,7 +41,7 @@ namespace PrintingApp.Views
                 bool IsPasscode5null = StringHelper.IsEmpty(txtIDtype.Text);
 
                  var QRCode = $"{txtEmail.Text}, {txtCompany.Text}, {txtName.Text}, {txtMobile.Text}, {txtIDtype.Text}";
-                var BarCode = $"{txtName.Text}, {txtIDtype.Text}";
+                var BarCode = $"{txtIDtype.Text}";
                 // var keycode = $"{"a"}";
                 App.Current.Properties["Passcode"] = QRCode;
                 App.Current.Properties["Barcodee"] = BarCode;
@@ -174,13 +174,14 @@ namespace PrintingApp.Views
             {
                 // var CodeResult = App.Current.Properties["Passcode"].ToString();
                 //  var BarCodeResult = App.Current.Properties["Barcodee"].ToString();
+              
 
                 var scan = new ZXingScannerPage();
                 await Navigation.PushAsync(scan);
                 scan.OnScanResult += (BarcodeValue) =>
                 {
-                    if (App.Current.Properties["Barcodee"].ToString() != BarcodeValue.ToString() || App.Current.Properties["Passcode"].ToString() != BarcodeValue.ToString())
-                    {
+                   if (App.Current.Properties["Barcodee"].ToString() == BarcodeValue.ToString() || App.Current.Properties["Passcode"].ToString() == BarcodeValue.ToString())
+                   {
                        // App.LiteDB.AddPerson();
                         Device.BeginInvokeOnMainThread(async () =>
                         {
@@ -190,17 +191,18 @@ namespace PrintingApp.Views
 
                             Person person = new Person()
                             {
+                                Name = qrLabel.Text,
+                               // Name = BarcodeValue.Text
 
-                                Name = qrLabel.Text
-                                // Email = txtEmail.Text,
-                                // Mobileno = txtMobile.Text,
-                                // CompanyName = txtCompany.Text,
-                                //IDTypeName = txtIDtype.Text,
+                            // Mobileno = txtMobile.Text,
+                            // CompanyName = txtCompany.Text,
+                            //IDTypeName = txtIDtype.Text,
 
-                                //    Imageimg = image.Source
+                            //    Imageimg = image.Source
 
                             };
                             App.LiteDB.AddPerson(person);
+                            qrLabel.Text = string.Empty;
                             var personListt = App.LiteDB.GetAllPersons();
                             if (personListt.Count != 0)
                             {
@@ -214,7 +216,8 @@ namespace PrintingApp.Views
                         Device.BeginInvokeOnMainThread(async () =>
                         {
                             await Navigation.PopAsync();
-                            qrLabel.Text = "QR is not valid";
+                           // qrLabel.Text = "QR is not valid";
+                            DisplayAlert("Alert", "Invalid code", "OK");
                         });
 
                     }
