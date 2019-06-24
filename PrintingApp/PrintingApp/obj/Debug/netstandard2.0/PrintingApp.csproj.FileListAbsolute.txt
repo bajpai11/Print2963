@@ -1,0 +1,15 @@
+E:\latestPrinting\Print2963\PrintingApp\PrintingApp\bin\Debug\netstandard2.0\PrintingApp.deps.json
+E:\latestPrinting\Print2963\PrintingApp\PrintingApp\bin\Debug\netstandard2.0\PrintingApp.dll
+E:\latestPrinting\Print2963\PrintingApp\PrintingApp\bin\Debug\netstandard2.0\PrintingApp.pdb
+E:\latestPrinting\Print2963\PrintingApp\PrintingApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\latestPrinting\Print2963\PrintingApp\PrintingApp\obj\Debug\netstandard2.0\Views\DashBoardScreen.xaml.g.cs
+E:\latestPrinting\Print2963\PrintingApp\PrintingApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+E:\latestPrinting\Print2963\PrintingApp\PrintingApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+E:\latestPrinting\Print2963\PrintingApp\PrintingApp\obj\Debug\netstandard2.0\Views\RegistrationPage.xaml.g.cs
+E:\latestPrinting\Print2963\PrintingApp\PrintingApp\obj\Debug\netstandard2.0\Views\TicketPrintScreen.xaml.g.cs
+E:\latestPrinting\Print2963\PrintingApp\PrintingApp\obj\Debug\netstandard2.0\PrintingApp.csproj.CoreCompileInputs.cache
+E:\latestPrinting\Print2963\PrintingApp\PrintingApp\obj\Debug\netstandard2.0\PrintingApp.AssemblyInfoInputs.cache
+E:\latestPrinting\Print2963\PrintingApp\PrintingApp\obj\Debug\netstandard2.0\PrintingApp.AssemblyInfo.cs
+E:\latestPrinting\Print2963\PrintingApp\PrintingApp\obj\Debug\netstandard2.0\XamlC.stamp
+E:\latestPrinting\Print2963\PrintingApp\PrintingApp\obj\Debug\netstandard2.0\PrintingApp.dll
+E:\latestPrinting\Print2963\PrintingApp\PrintingApp\obj\Debug\netstandard2.0\PrintingApp.pdb
