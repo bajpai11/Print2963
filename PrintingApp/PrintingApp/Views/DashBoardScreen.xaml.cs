@@ -244,9 +244,29 @@ namespace PrintingApp.Views
 
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
+        private async void Button_Clicked_1(object sender, EventArgs e)
         {
+            if (!CrossMedia.Current.IsPickPhotoSupported)
+            {
+                DisplayAlert("Photos Not Supported", ":( Permission not granted to photos.", "OK");
+                return;
+            }
+            var file = await Plugin.Media.CrossMedia.Current.PickPhotoAsync(new Plugin.Media.Abstractions.PickMediaOptions
+            {
+                PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium,
 
+            });
+
+
+            if (file == null)
+                return;
+
+            image.Source = ImageSource.FromStream(() =>
+            {
+                var stream = file.GetStream();
+                file.Dispose();
+                return stream;
+            });
         }
         //private async void Button_Clicked(object sender, EventArgs e)
         //{

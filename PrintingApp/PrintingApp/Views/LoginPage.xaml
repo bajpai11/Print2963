@@ -3,40 +3,48 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              xmlns:Validations="clr-namespace:IAudioXamarin.Validations"
+             xmlns:local="clr-namespace:PrintingApp.Common"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="PrintingApp.Views.LoginPage"
              NavigationPage.HasNavigationBar="False">
     <StackLayout>
         <Grid Padding="20">
             <Grid.RowDefinitions>
-                <RowDefinition Height=".3*"/>
+                <RowDefinition Height=".6*"/>
                 <RowDefinition Height="2*"/>
                 <RowDefinition Height="1*"/>
                 <RowDefinition Height="1*"/>
                 <RowDefinition Height=".3*"/>
                 <RowDefinition Height="1*"/>
                 <RowDefinition Height=".3*"/>
-                <RowDefinition Height="1*"/>
+                <RowDefinition Height=".7*"/>
                 <RowDefinition Height="1*"/>
                 <RowDefinition Height=".4*"/>
                 <RowDefinition Height="1*"/>
                 <RowDefinition Height="1.2*"/>
 
             </Grid.RowDefinitions>
-            <Image Source="iconn.png" HorizontalOptions="Center" Grid.Row="1" HeightRequest="120" WidthRequest="150"/>
-            <Label Text="ADMIN LOGIN" FontAttributes="Bold" TextColor="#0762AD" HorizontalOptions="Center" Grid.Row="2" FontSize="Large"/>
-            <Entry x:Name="emailid" Grid.Row="3" TranslationX="12" TextColor="Black" Text="{Binding Username}" Placeholder="Enter Email"/>
+            <Image Source="iconn.png" HorizontalOptions="Center" Grid.Row="1" HeightRequest="140" WidthRequest="190"/>
+            <Label Text="ADMIN LOGIN" TextColor="#262626" HorizontalOptions="Center" Grid.Row="2" FontSize="Large"/>
+            <Frame BackgroundColor="White" Grid.Row="3" HasShadow="True" BorderColor="#E6E6E6" VerticalOptions="End" HorizontalOptions="FillAndExpand" Padding="0" HeightRequest="70">
+
+                <local:CustomEntry x:Name="emailid" Grid.Row="3" TranslationX="12" TextColor="Black" Text="{Binding Username}" Placeholder="Enter Email"/>
+            </Frame>
+            <!--<Image Source="login_mail.png" Grid.Row="3" HorizontalOptions="Start" HeightRequest="25" WidthRequest="25"  TranslationX="-13"/>-->
+                
+            
             <!--<Validations:MPEntry x:Name="emailid" Placeholder="Enter Email"  Text="{Binding Username}" ShowErrorMessage="True" Grid.Row="2" TranslationX="12" TextColor="Black" ></Validations:MPEntry>-->
-            <Image Source="login_mail.png" Grid.Row="3" HorizontalOptions="Start" HeightRequest="25" WidthRequest="25"  TranslationX="-13"/>
             <!--<Image Source="line2.png" Grid.Row="5" TranslationY="8" HorizontalOptions="Center"/>-->
 
             <Label BindingContext="{x:Reference emailid}"  Style="{DynamicResource LabelSty}"
           IsVisible="{Binding HasError}" 
           Text="{Binding ErrorMessage}" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" VerticalOptions="StartAndExpand"
                            FontSize="12" TextColor="#C04D5D"  Grid.Row="3"/>
-            <Entry x:Name="pass" Placeholder="Enter Password" Text="{Binding Password}" IsPassword="True" TextColor="Black" Grid.Row="5" TranslationX="12"/>
+            <Frame BackgroundColor="White" Grid.Row="5" HasShadow="True" BorderColor="#E6E6E6" VerticalOptions="End" HorizontalOptions="FillAndExpand" Padding="0" HeightRequest="70">
+                <local:CustomEntry x:Name="pass" Placeholder="Enter Password" Text="{Binding Password}" IsPassword="True" TextColor="Black" Grid.Row="5" TranslationX="12"/>
+            </Frame>
             <!--<Validations:MPEntry x:Name="pass" Placeholder="Enter Password" Text="{Binding Password}" ShowErrorMessage="True" Grid.Row="4" IsPassword="True" TranslationX="12" TextColor="Black"></Validations:MPEntry>-->
-            <Image Source="login_password.png" Grid.Row="5" HorizontalOptions="Start" HeightRequest="25" WidthRequest="25" TranslationX="-13"/>
+            <!--<Image Source="login_password.png" Grid.Row="5" HorizontalOptions="Start" HeightRequest="25" WidthRequest="25" TranslationX="-13"/>-->
             <!--<Image Source="line2.png" Grid.Row="7" TranslationY="8" HorizontalOptions="Center"/>-->
 
             <Label BindingContext="{x:Reference pass}" Style="{DynamicResource LabelSty}"
@@ -57,8 +65,8 @@
                 </Label.GestureRecognizers>
             </Label>-->
 
-            <Button Text=" Login" BorderRadius="20" VerticalOptions="Center" 
-                   Command="{Binding SubmitCommand}"  Grid.Row="8" BackgroundColor="#0762AD" TextColor="White"/>
+            <Button Text=" SUBMIT" BorderRadius="15" VerticalOptions="Center" 
+                   Command="{Binding SubmitCommand}"  Grid.Row="8" BackgroundColor="#118BB9" TextColor="White"/>
             <!--<Button Text="Resister" BorderRadius="20" VerticalOptions="Center" 
                    Command="{Binding ResisterCommand}"  Grid.Row="9" BackgroundColor="#0762AD" TextColor="White"/>-->
 

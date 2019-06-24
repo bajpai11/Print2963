@@ -12,11 +12,11 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height=".8*"/>
-            <RowDefinition Height=".1*"/>
-            <RowDefinition Height="4.5*"/>
-            <RowDefinition Height="3.7*"/>
             <RowDefinition Height=".8*"/>
-            <RowDefinition Height=".7*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="3.5*"/>
+            <RowDefinition Height=".6*"/>
+            <RowDefinition Height=".9*"/>
         </Grid.RowDefinitions>
         <StackLayout Orientation="Horizontal" Spacing="50" Grid.Row="0">
             <Image Source="back.png" HeightRequest="25" WidthRequest="25" HorizontalOptions="Start" Margin="10,0,0,0">
@@ -24,8 +24,10 @@
                     <TapGestureRecognizer Command="{Binding BackCommand}"/>
                 </Image.GestureRecognizers>
             </Image>
-            <Label Text="FORM" FontSize="24" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold" Margin="50,10,0,0"/>
+            <Label Text="Ticket" FontSize="24" HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold" Margin="50,10,0,0"/>
         </StackLayout>
+        <Image Source="iconn.png" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1" HeightRequest="140" WidthRequest="190"/>
+
         <!--<Button Text="Scan" Grid.Row="1" HeightRequest="40" WidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Generate_Barcode" />-->
         <!--<StackLayout Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="10,0,10,0">
             <Picker ItemsSource="{Binding DeviceList}"
@@ -37,17 +39,27 @@
         </StackLayout>-->
         <StackLayout Grid.Row="2" Spacing="20" VerticalOptions="EndAndExpand">
            
-            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="10,0,10,0" Spacing="5">
-                <Label Text="Email" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Start"/>
-                <Label Text="" x:Name="textemail" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
-                <Label Text="Name" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Start"/>
-                <Label Text="" x:Name="textname" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
-                <Label Text="Mobile No." TextColor="Black" FontAttributes="Bold" HorizontalOptions="Start"/>
-                <Label Text="" x:Name="textMobile" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/> 
-                <Label Text="Company Name" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Start"/>
-                <Label Text="" x:Name="textCompany" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
-                <Label Text="ID No." TextColor="Black" FontAttributes="Bold" HorizontalOptions="Start"/>
-               <Label Text="" x:Name="textIDType" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="10,0,10,0" Spacing="8">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Email" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Start"/>
+                    <Label Text="" x:Name="textemail" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Name" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Start"/>
+                    <Label Text="" x:Name="textname" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Mobile No." TextColor="Black" FontAttributes="Bold" HorizontalOptions="Start"/>
+                    <Label Text="" x:Name="textMobile" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Company Name" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Start"/>
+                    <Label Text="" x:Name="textCompany" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="ID No." TextColor="Black" FontAttributes="Bold" HorizontalOptions="Start"/>
+                    <Label Text="" x:Name="textIDType" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+                </StackLayout>
                 <Label Text="" x:Name="textKey" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
 
             </StackLayout>
@@ -74,6 +86,6 @@
             </zxing:ZXingBarcodeImageView>
         </StackLayout>
         <Image x:Name="imgImage" Grid.Row="4"/>
-        <Button Text="Print" Grid.Row="5" HorizontalOptions="FillAndExpand" HeightRequest="70" Clicked="PDF_Clicked" Margin="10,0,10,0"/>
+        <Button Text="Print" BackgroundColor="#118BB9" CornerRadius="15" TextColor="White" Grid.Row="5" HorizontalOptions="FillAndExpand" HeightRequest="70" Clicked="PDF_Clicked" Margin="10,0,10,5"/>
     </Grid>
 </ContentPage>     

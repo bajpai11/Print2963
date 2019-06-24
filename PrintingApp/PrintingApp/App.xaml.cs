@@ -42,7 +42,7 @@ namespace PrintingApp
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/DashBoardScreen");
+            await NavigationService.NavigateAsync("NavigationPage/LoginPage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
@@ -53,7 +53,6 @@ namespace PrintingApp
             containerRegistry.RegisterForNavigation<RegistrationPage, RegistrationPageViewModel>();
             containerRegistry.RegisterForNavigation<DashBoardScreen, DashBoardScreenViewModel>();
             containerRegistry.RegisterForNavigation<TicketPrintScreen, TicketPrintScreenViewModel>();
-
             containerRegistry.RegisterForNavigation<CreatePDF, CreatePDFViewModel>();
         }
     }

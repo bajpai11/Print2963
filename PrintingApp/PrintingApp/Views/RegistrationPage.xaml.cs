@@ -2,6 +2,8 @@
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Windows.Input;
+using Plugin.Media;
+using Plugin.Media.Abstractions;
 using PrintingApp.Interface;
 using Syncfusion.Drawing;
 using Syncfusion.Pdf;
@@ -22,17 +24,18 @@ namespace PrintingApp.Views
             // ScanCommand = new Command(Scan_Tap);
            
             InitializeComponent();
-
+            
           //  BackCommand = new Command(Back_Tap);
             textemail.Text = email;
             textname.Text = name;
             textMobile.Text = mobile;
             textCompany.Text = company;
-            imgImage.Source = img;
+            this.img.Source = img;
             textIDType.Text = IDType;
+
            
             //     imageName.Source = imgName;
-            
+
 
 
 
@@ -44,18 +47,11 @@ namespace PrintingApp.Views
 
            //  BarcodeImageView.BarcodeValue = $"{textMobile.Text},{textIDType.Text},{textCompany.Text}";
               BarcodeImageView.BarcodeValue = App.Current.Properties["Barcodee"].ToString();
-
-            BarcodeImageView.IsVisible = true;
+              BarcodeImageView.IsVisible = true;
         }
-
-        //private void Button_Clicked(object sender, EventArgs e)
-        //{
-        //   // App.Current.MainPage=new NavigationPage(new MainPage());
-        //}
-
         private void PDF_Clicked(object sender, EventArgs e)
         {
-
+          
             //Create the pdfdocument 
             PdfDocument doc = new PdfDocument();
 
@@ -104,7 +100,6 @@ namespace PrintingApp.Views
             pdfGridRow1.Cells[1].Value = textemail.Text;
 
 
-
             PdfGridRow pdfGridRow2 = pdfGrid.Rows.Add();
 
             pdfGridRow2.Cells[0].Value = "Name";
@@ -133,12 +128,12 @@ namespace PrintingApp.Views
             pdfGrid.Draw(page, PointF.Empty);
 
 
-             barcode.Text = $"Email:-{textemail.Text}, Mobile No.:-{textCompany.Text}, Name:{textname.Text}, ID No.:- {textKey.Text}";
-             BarcodeA.Text = "11123995650";
+             barcode.Text = App.Current.Properties["Passcode"].ToString();
+            BarcodeA.Text = App.Current.Properties["Barcodee"].ToString();
             //Printing barcode on to the Pdf. 
 
-            barcode.Draw(page, new PointF(120, 120));
-            BarcodeA.Draw(page, new PointF(100, 180));
+            barcode.Draw(page, new PointF(250, 130));
+            BarcodeA.Draw(page, new PointF(120, 110));
             //Save and close the document.
             MemoryStream stream = new MemoryStream();
             doc.Save(stream);
