@@ -1524,11 +1524,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\newapp\\Print2963\\PrintingApp\\PrintingApp\\PrintingApp.csproj",
+      "projectUniqueName": "E:\\latestPrinting\\Print2963\\PrintingApp\\PrintingApp\\PrintingApp.csproj",
       "projectName": "PrintingApp",
-      "projectPath": "E:\\newapp\\Print2963\\PrintingApp\\PrintingApp\\PrintingApp.csproj",
+      "projectPath": "E:\\latestPrinting\\Print2963\\PrintingApp\\PrintingApp\\PrintingApp.csproj",
       "packagesPath": "C:\\Users\\Gip\\.nuget\\packages\\",
-      "outputPath": "E:\\newapp\\Print2963\\PrintingApp\\PrintingApp\\obj\\",
+      "outputPath": "E:\\latestPrinting\\Print2963\\PrintingApp\\PrintingApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

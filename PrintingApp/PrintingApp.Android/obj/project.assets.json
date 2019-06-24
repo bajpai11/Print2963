@@ -1676,11 +1676,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\newapp\\Print2963\\PrintingApp\\PrintingApp.Android\\PrintingApp.Android.csproj",
+      "projectUniqueName": "E:\\latestPrinting\\Print2963\\PrintingApp\\PrintingApp.Android\\PrintingApp.Android.csproj",
       "projectName": "PrintingApp.Android",
-      "projectPath": "E:\\newapp\\Print2963\\PrintingApp\\PrintingApp.Android\\PrintingApp.Android.csproj",
+      "projectPath": "E:\\latestPrinting\\Print2963\\PrintingApp\\PrintingApp.Android\\PrintingApp.Android.csproj",
       "packagesPath": "C:\\Users\\Gip\\.nuget\\packages\\",
-      "outputPath": "E:\\newapp\\Print2963\\PrintingApp\\PrintingApp.Android\\obj\\",
+      "outputPath": "E:\\latestPrinting\\Print2963\\PrintingApp\\PrintingApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1697,8 +1697,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "E:\\newapp\\Print2963\\PrintingApp\\PrintingApp\\PrintingApp.csproj": {
-              "projectPath": "E:\\newapp\\Print2963\\PrintingApp\\PrintingApp\\PrintingApp.csproj"
+            "E:\\latestPrinting\\Print2963\\PrintingApp\\PrintingApp\\PrintingApp.csproj": {
+              "projectPath": "E:\\latestPrinting\\Print2963\\PrintingApp\\PrintingApp\\PrintingApp.csproj"
             }
           }
         }
